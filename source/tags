@@ -1,0 +1,1296 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABS	cvode/sundials_math.h	/^#define ABS /;"	d
+ADAMS_Q_MAX	cvode/cvode_impl.h	/^#define ADAMS_Q_MAX /;"	d
+ADDON	cvode/cvode.c	/^#define ADDON /;"	d	file:
+A_param	odtparam.h	/^        double  A_param;         \/\/\/<  Energy Distribution parameter alpha $/;"	m	class:odtparam
+BDF_Q_MAX	cvode/cvode_impl.h	/^#define BDF_Q_MAX /;"	d
+BIAS1	cvode/cvode.c	/^#define BIAS1 /;"	d	file:
+BIAS2	cvode/cvode.c	/^#define BIAS2 /;"	d	file:
+BIAS3	cvode/cvode.c	/^#define BIAS3 /;"	d	file:
+BIG_REAL	cvode/sundials_types.h	/^#define BIG_REAL /;"	d
+CLOSERT	cvode/cvode.c	/^#define CLOSERT /;"	d	file:
+CONV_FAIL	cvode/cvode.c	/^#define CONV_FAIL /;"	d	file:
+CORTES	cvode/cvode.c	/^#define CORTES /;"	d	file:
+CRDOWN	cvode/cvode.c	/^#define CRDOWN /;"	d	file:
+CVAdamsFinish	cvode/cvode.c	/^static void CVAdamsFinish(CVodeMem cv_mem, realtype m[], realtype M[], realtype hsum)$/;"	f	file:
+CVAdamsStart	cvode/cvode.c	/^static realtype CVAdamsStart(CVodeMem cv_mem, realtype m[])$/;"	f	file:
+CVAdjustAdams	cvode/cvode.c	/^static void CVAdjustAdams(CVodeMem cv_mem, int deltaq)$/;"	f	file:
+CVAdjustBDF	cvode/cvode.c	/^static void CVAdjustBDF(CVodeMem cv_mem, int deltaq)$/;"	f	file:
+CVAdjustOrder	cvode/cvode.c	/^static void CVAdjustOrder(CVodeMem cv_mem, int deltaq)$/;"	f	file:
+CVAdjustParams	cvode/cvode.c	/^static void CVAdjustParams(CVodeMem cv_mem)$/;"	f	file:
+CVAllocVectors	cvode/cvode.c	/^static booleantype CVAllocVectors(CVodeMem cv_mem, N_Vector tmpl, int tol)$/;"	f	file:
+CVAltSum	cvode/cvode.c	/^static realtype CVAltSum(int iend, realtype a[], int k)$/;"	f	file:
+CVBDFStab	cvode/cvode.c	/^void CVBDFStab(CVodeMem cv_mem)$/;"	f
+CVCheckNvector	cvode/cvode.c	/^static booleantype CVCheckNvector(N_Vector tmpl)$/;"	f	file:
+CVChooseEta	cvode/cvode.c	/^static void CVChooseEta(CVodeMem cv_mem)$/;"	f	file:
+CVCompleteStep	cvode/cvode.c	/^static void CVCompleteStep(CVodeMem cv_mem)$/;"	f	file:
+CVComputeEtaqm1	cvode/cvode.c	/^static realtype CVComputeEtaqm1(CVodeMem cv_mem)$/;"	f	file:
+CVComputeEtaqp1	cvode/cvode.c	/^static realtype CVComputeEtaqp1(CVodeMem cv_mem)$/;"	f	file:
+CVDENSE_ILL_INPUT	cvode/cvode_dense.h	/^#define CVDENSE_ILL_INPUT /;"	d
+CVDENSE_JACFUNC_RECVR	cvode/cvode_dense.h	/^#define CVDENSE_JACFUNC_RECVR /;"	d
+CVDENSE_JACFUNC_UNRECVR	cvode/cvode_dense.h	/^#define CVDENSE_JACFUNC_UNRECVR /;"	d
+CVDENSE_LMEM_NULL	cvode/cvode_dense.h	/^#define CVDENSE_LMEM_NULL /;"	d
+CVDENSE_MEM_FAIL	cvode/cvode_dense.h	/^#define CVDENSE_MEM_FAIL /;"	d
+CVDENSE_MEM_NULL	cvode/cvode_dense.h	/^#define CVDENSE_MEM_NULL /;"	d
+CVDENSE_SUCCESS	cvode/cvode_dense.h	/^#define CVDENSE_SUCCESS /;"	d
+CVD_DGMAX	cvode/cvode_dense.h	/^#define CVD_DGMAX /;"	d
+CVD_MSBJ	cvode/cvode_dense.h	/^#define CVD_MSBJ /;"	d
+CVDecreaseBDF	cvode/cvode.c	/^static void CVDecreaseBDF(CVodeMem cv_mem)$/;"	f	file:
+CVDense	cvode/cvode_dense.c	/^int CVDense(void *cvode_mem, long int N)$/;"	f
+CVDenseDQJac	cvode/cvode_dense.c	/^static int CVDenseDQJac(long int N, DenseMat J, realtype t, $/;"	f	file:
+CVDenseFree	cvode/cvode_dense.c	/^static void CVDenseFree(CVodeMem cv_mem)$/;"	f	file:
+CVDenseGetLastFlag	cvode/cvode_dense.c	/^int CVDenseGetLastFlag(void *cvode_mem, int *flag)$/;"	f
+CVDenseGetNumJacEvals	cvode/cvode_dense.c	/^int CVDenseGetNumJacEvals(void *cvode_mem, long int *njevals)$/;"	f
+CVDenseGetNumRhsEvals	cvode/cvode_dense.c	/^int CVDenseGetNumRhsEvals(void *cvode_mem, long int *nfevalsLS)$/;"	f
+CVDenseGetReturnFlagName	cvode/cvode_dense.c	/^char *CVDenseGetReturnFlagName(int flag)$/;"	f
+CVDenseGetWorkSpace	cvode/cvode_dense.c	/^int CVDenseGetWorkSpace(void *cvode_mem, long int *lenrwLS, long int *leniwLS)$/;"	f
+CVDenseInit	cvode/cvode_dense.c	/^static int CVDenseInit(CVodeMem cv_mem)$/;"	f	file:
+CVDenseJacFn	cvode/cvode_dense.h	/^typedef int (*CVDenseJacFn)(long int N, DenseMat J, realtype t,$/;"	t
+CVDenseMem	cvode/cvode_dense_impl.h	/^} CVDenseMemRec, *CVDenseMem;$/;"	t	typeref:struct:__anon1
+CVDenseMemRec	cvode/cvode_dense_impl.h	/^} CVDenseMemRec, *CVDenseMem;$/;"	t	typeref:struct:__anon1
+CVDenseSetJacFn	cvode/cvode_dense.c	/^int CVDenseSetJacFn(void *cvode_mem, CVDenseJacFn djac, void *jac_data)$/;"	f
+CVDenseSetup	cvode/cvode_dense.c	/^static int CVDenseSetup(CVodeMem cv_mem, int convfail, N_Vector ypred,$/;"	f	file:
+CVDenseSolve	cvode/cvode_dense.c	/^static int CVDenseSolve(CVodeMem cv_mem, N_Vector b, N_Vector weight,$/;"	f	file:
+CVDoErrorTest	cvode/cvode.c	/^static booleantype CVDoErrorTest(CVodeMem cv_mem, int *nflagPtr,$/;"	f	file:
+CVErrHandler	cvode/cvode.c	/^void CVErrHandler(int error_code, const char *module,$/;"	f
+CVErrHandlerFn	cvode/cvode.h	/^  typedef void (*CVErrHandlerFn)(int error_code, $/;"	t
+CVEwtFn	cvode/cvode.h	/^  typedef int (*CVEwtFn)(N_Vector y, N_Vector ewt, void *e_data);$/;"	t
+CVEwtSet	cvode/cvode.c	/^int CVEwtSet(N_Vector ycur, N_Vector weight, void *data)$/;"	f
+CVEwtSetSS	cvode/cvode.c	/^static int CVEwtSetSS(CVodeMem cv_mem, N_Vector ycur, N_Vector weight)$/;"	f	file:
+CVEwtSetSV	cvode/cvode.c	/^static int CVEwtSetSV(CVodeMem cv_mem, N_Vector ycur, N_Vector weight)$/;"	f	file:
+CVFreeVectors	cvode/cvode.c	/^static void CVFreeVectors(CVodeMem cv_mem)$/;"	f	file:
+CVHandleFailure	cvode/cvode.c	/^static int CVHandleFailure(CVodeMem cv_mem, int flag)$/;"	f	file:
+CVHandleNFlag	cvode/cvode.c	/^static int CVHandleNFlag(CVodeMem cv_mem, int *nflagPtr, realtype saved_t,$/;"	f	file:
+CVHin	cvode/cvode.c	/^static int CVHin(CVodeMem cv_mem, realtype tout)$/;"	f	file:
+CVIncreaseBDF	cvode/cvode.c	/^static void CVIncreaseBDF(CVodeMem cv_mem)$/;"	f	file:
+CVInitialSetup	cvode/cvode.c	/^static int CVInitialSetup(CVodeMem cv_mem)$/;"	f	file:
+CVNewtonIteration	cvode/cvode.c	/^static int CVNewtonIteration(CVodeMem cv_mem)$/;"	f	file:
+CVNls	cvode/cvode.c	/^static int CVNls(CVodeMem cv_mem, int nflag)$/;"	f	file:
+CVNlsFunctional	cvode/cvode.c	/^static int CVNlsFunctional(CVodeMem cv_mem)$/;"	f	file:
+CVNlsNewton	cvode/cvode.c	/^static int CVNlsNewton(CVodeMem cv_mem, int nflag)$/;"	f	file:
+CVODEDRIVER_H	cvodeDriver.h	/^#define CVODEDRIVER_H$/;"	d
+CVPredict	cvode/cvode.c	/^static void CVPredict(CVodeMem cv_mem)$/;"	f	file:
+CVPrepareNextStep	cvode/cvode.c	/^ static void CVPrepareNextStep(CVodeMem cv_mem, realtype dsm)$/;"	f	file:
+CVProcessError	cvode/cvode.c	/^void CVProcessError(CVodeMem cv_mem, $/;"	f
+CVRcheck1	cvode/cvode.c	/^static int CVRcheck1(CVodeMem cv_mem)$/;"	f	file:
+CVRcheck2	cvode/cvode.c	/^static int CVRcheck2(CVodeMem cv_mem)$/;"	f	file:
+CVRcheck3	cvode/cvode.c	/^static int CVRcheck3(CVodeMem cv_mem)$/;"	f	file:
+CVRescale	cvode/cvode.c	/^static void CVRescale(CVodeMem cv_mem)$/;"	f	file:
+CVRestore	cvode/cvode.c	/^static void CVRestore(CVodeMem cv_mem, realtype saved_t)$/;"	f	file:
+CVRhsFn	cvode/cvode.h	/^  typedef int (*CVRhsFn)(realtype t, N_Vector y,$/;"	t
+CVRootFn	cvode/cvode.h	/^  typedef int (*CVRootFn)(realtype t, N_Vector y, realtype *gout,$/;"	t
+CVRootfind	cvode/cvode.c	/^static int CVRootfind(CVodeMem cv_mem)$/;"	f	file:
+CVSet	cvode/cvode.c	/^static void CVSet(CVodeMem cv_mem)$/;"	f	file:
+CVSetAdams	cvode/cvode.c	/^static void CVSetAdams(CVodeMem cv_mem)$/;"	f	file:
+CVSetBDF	cvode/cvode.c	/^static void CVSetBDF(CVodeMem cv_mem)$/;"	f	file:
+CVSetEta	cvode/cvode.c	/^static void CVSetEta(CVodeMem cv_mem)$/;"	f	file:
+CVSetTqBDF	cvode/cvode.c	/^static void CVSetTqBDF(CVodeMem cv_mem, realtype hsum, realtype alpha0,$/;"	f	file:
+CVStep	cvode/cvode.c	/^static int CVStep(CVodeMem cv_mem)$/;"	f	file:
+CVUpperBoundH0	cvode/cvode.c	/^static realtype CVUpperBoundH0(CVodeMem cv_mem, realtype tdist)$/;"	f	file:
+CVYddNorm	cvode/cvode.c	/^static int CVYddNorm(CVodeMem cv_mem, realtype hg, realtype *yddnrm)$/;"	f	file:
+CV_ADAMS	cvode/cvode.h	/^#define CV_ADAMS /;"	d
+CV_BAD_DKY	cvode/cvode.h	/^#define CV_BAD_DKY /;"	d
+CV_BAD_K	cvode/cvode.h	/^#define CV_BAD_K /;"	d
+CV_BAD_T	cvode/cvode.h	/^#define CV_BAD_T /;"	d
+CV_BDF	cvode/cvode.h	/^#define CV_BDF /;"	d
+CV_CONV_FAILURE	cvode/cvode.h	/^#define CV_CONV_FAILURE /;"	d
+CV_ERR_FAILURE	cvode/cvode.h	/^#define CV_ERR_FAILURE /;"	d
+CV_FAIL_BAD_J	cvode/cvode_impl.h	/^#define CV_FAIL_BAD_J /;"	d
+CV_FAIL_OTHER	cvode/cvode_impl.h	/^#define CV_FAIL_OTHER /;"	d
+CV_FIRST_RHSFUNC_ERR	cvode/cvode.h	/^#define CV_FIRST_RHSFUNC_ERR /;"	d
+CV_FUNCTIONAL	cvode/cvode.h	/^#define CV_FUNCTIONAL /;"	d
+CV_ILL_INPUT	cvode/cvode.h	/^#define CV_ILL_INPUT /;"	d
+CV_LINIT_FAIL	cvode/cvode.h	/^#define CV_LINIT_FAIL /;"	d
+CV_LSETUP_FAIL	cvode/cvode.h	/^#define CV_LSETUP_FAIL /;"	d
+CV_LSOLVE_FAIL	cvode/cvode.h	/^#define CV_LSOLVE_FAIL /;"	d
+CV_MEM_FAIL	cvode/cvode.h	/^#define CV_MEM_FAIL /;"	d
+CV_MEM_NULL	cvode/cvode.h	/^#define CV_MEM_NULL /;"	d
+CV_NEWTON	cvode/cvode.h	/^#define CV_NEWTON /;"	d
+CV_NORMAL	cvode/cvode.h	/^#define CV_NORMAL /;"	d
+CV_NORMAL_TSTOP	cvode/cvode.h	/^#define CV_NORMAL_TSTOP /;"	d
+CV_NO_FAILURES	cvode/cvode_impl.h	/^#define CV_NO_FAILURES /;"	d
+CV_NO_MALLOC	cvode/cvode.h	/^#define CV_NO_MALLOC /;"	d
+CV_ONE_STEP	cvode/cvode.h	/^#define CV_ONE_STEP /;"	d
+CV_ONE_STEP_TSTOP	cvode/cvode.h	/^#define CV_ONE_STEP_TSTOP /;"	d
+CV_REPTD_RHSFUNC_ERR	cvode/cvode.h	/^#define CV_REPTD_RHSFUNC_ERR /;"	d
+CV_RHSFUNC_FAIL	cvode/cvode.h	/^#define CV_RHSFUNC_FAIL /;"	d
+CV_ROOT_RETURN	cvode/cvode.h	/^#define CV_ROOT_RETURN /;"	d
+CV_RTFUNC_FAIL	cvode/cvode.h	/^#define CV_RTFUNC_FAIL /;"	d
+CV_SS	cvode/cvode.h	/^#define CV_SS /;"	d
+CV_SUCCESS	cvode/cvode.h	/^#define CV_SUCCESS /;"	d
+CV_SV	cvode/cvode.h	/^#define CV_SV /;"	d
+CV_TOO_CLOSE	cvode/cvode.h	/^#define CV_TOO_CLOSE /;"	d
+CV_TOO_MUCH_ACC	cvode/cvode.h	/^#define CV_TOO_MUCH_ACC /;"	d
+CV_TOO_MUCH_WORK	cvode/cvode.h	/^#define CV_TOO_MUCH_WORK /;"	d
+CV_TSTOP_RETURN	cvode/cvode.h	/^#define CV_TSTOP_RETURN /;"	d
+CV_UNREC_RHSFUNC_ERR	cvode/cvode.h	/^#define CV_UNREC_RHSFUNC_ERR /;"	d
+CV_WARNING	cvode/cvode.h	/^#define CV_WARNING /;"	d
+CV_WF	cvode/cvode.h	/^#define CV_WF /;"	d
+CVode	cvode/cvode.c	/^int CVode(void *cvode_mem, realtype tout, N_Vector yout, $/;"	f
+CVodeCreate	cvode/cvode.c	/^void *CVodeCreate(int lmm, int iter)$/;"	f
+CVodeFree	cvode/cvode.c	/^void CVodeFree(void **cvode_mem)$/;"	f
+CVodeGetActualInitStep	cvode/cvode_io.c	/^int CVodeGetActualInitStep(void *cvode_mem, realtype *hinused)$/;"	f
+CVodeGetCurrentOrder	cvode/cvode_io.c	/^int CVodeGetCurrentOrder(void *cvode_mem, int *qcur)$/;"	f
+CVodeGetCurrentStep	cvode/cvode_io.c	/^int CVodeGetCurrentStep(void *cvode_mem, realtype *hcur)$/;"	f
+CVodeGetCurrentTime	cvode/cvode_io.c	/^int CVodeGetCurrentTime(void *cvode_mem, realtype *tcur)$/;"	f
+CVodeGetDky	cvode/cvode.c	/^int CVodeGetDky(void *cvode_mem, realtype t, int k, N_Vector dky)$/;"	f
+CVodeGetErrWeights	cvode/cvode_io.c	/^int CVodeGetErrWeights(void *cvode_mem, N_Vector eweight)$/;"	f
+CVodeGetEstLocalErrors	cvode/cvode_io.c	/^int CVodeGetEstLocalErrors(void *cvode_mem, N_Vector ele)$/;"	f
+CVodeGetIntegratorStats	cvode/cvode_io.c	/^int CVodeGetIntegratorStats(void *cvode_mem, long int *nsteps, long int *nfevals, $/;"	f
+CVodeGetLastOrder	cvode/cvode_io.c	/^int CVodeGetLastOrder(void *cvode_mem, int *qlast)$/;"	f
+CVodeGetLastStep	cvode/cvode_io.c	/^int CVodeGetLastStep(void *cvode_mem, realtype *hlast)$/;"	f
+CVodeGetNonlinSolvStats	cvode/cvode_io.c	/^int CVodeGetNonlinSolvStats(void *cvode_mem, long int *nniters, $/;"	f
+CVodeGetNumErrTestFails	cvode/cvode_io.c	/^int CVodeGetNumErrTestFails(void *cvode_mem, long int *netfails)$/;"	f
+CVodeGetNumGEvals	cvode/cvode_io.c	/^int CVodeGetNumGEvals(void *cvode_mem, long int *ngevals)$/;"	f
+CVodeGetNumLinSolvSetups	cvode/cvode_io.c	/^int CVodeGetNumLinSolvSetups(void *cvode_mem, long int *nlinsetups)$/;"	f
+CVodeGetNumNonlinSolvConvFails	cvode/cvode_io.c	/^int CVodeGetNumNonlinSolvConvFails(void *cvode_mem, long int *nncfails)$/;"	f
+CVodeGetNumNonlinSolvIters	cvode/cvode_io.c	/^int CVodeGetNumNonlinSolvIters(void *cvode_mem, long int *nniters)$/;"	f
+CVodeGetNumRhsEvals	cvode/cvode_io.c	/^int CVodeGetNumRhsEvals(void *cvode_mem, long int *nfevals)$/;"	f
+CVodeGetNumStabLimOrderReds	cvode/cvode_io.c	/^int CVodeGetNumStabLimOrderReds(void *cvode_mem, long int *nslred)$/;"	f
+CVodeGetNumSteps	cvode/cvode_io.c	/^int CVodeGetNumSteps(void *cvode_mem, long int *nsteps)$/;"	f
+CVodeGetReturnFlagName	cvode/cvode_io.c	/^char *CVodeGetReturnFlagName(int flag)$/;"	f
+CVodeGetRootInfo	cvode/cvode_io.c	/^int CVodeGetRootInfo(void *cvode_mem, int *rootsfound)$/;"	f
+CVodeGetTolScaleFactor	cvode/cvode_io.c	/^int CVodeGetTolScaleFactor(void *cvode_mem, realtype *tolsfact)$/;"	f
+CVodeGetWorkSpace	cvode/cvode_io.c	/^int CVodeGetWorkSpace(void *cvode_mem, long int *lenrw, long int *leniw)$/;"	f
+CVodeMalloc	cvode/cvode.c	/^int CVodeMalloc(void *cvode_mem, CVRhsFn f, realtype t0, N_Vector y0, $/;"	f
+CVodeMem	cvode/cvode_impl.h	/^  } *CVodeMem;$/;"	t	typeref:struct:CVodeMemRec
+CVodeMemRec	cvode/cvode_impl.h	/^  typedef struct CVodeMemRec {$/;"	s
+CVodeReInit	cvode/cvode.c	/^int CVodeReInit(void *cvode_mem, CVRhsFn f, realtype t0, N_Vector y0, $/;"	f
+CVodeRootInit	cvode/cvode.c	/^int CVodeRootInit(void *cvode_mem, int nrtfn, CVRootFn g, void *gdata)$/;"	f
+CVodeSetErrFile	cvode/cvode_io.c	/^int CVodeSetErrFile(void *cvode_mem, FILE *errfp)$/;"	f
+CVodeSetErrHandlerFn	cvode/cvode_io.c	/^int CVodeSetErrHandlerFn(void *cvode_mem, CVErrHandlerFn ehfun, void *eh_data)$/;"	f
+CVodeSetEwtFn	cvode/cvode_io.c	/^int CVodeSetEwtFn(void *cvode_mem, CVEwtFn efun, void *e_data)$/;"	f
+CVodeSetFdata	cvode/cvode_io.c	/^int CVodeSetFdata(void *cvode_mem, void *f_data)$/;"	f
+CVodeSetInitStep	cvode/cvode_io.c	/^int CVodeSetInitStep(void *cvode_mem, realtype hin)$/;"	f
+CVodeSetIterType	cvode/cvode_io.c	/^int CVodeSetIterType(void *cvode_mem, int iter)$/;"	f
+CVodeSetMaxConvFails	cvode/cvode_io.c	/^int CVodeSetMaxConvFails(void *cvode_mem, int maxncf)$/;"	f
+CVodeSetMaxErrTestFails	cvode/cvode_io.c	/^int CVodeSetMaxErrTestFails(void *cvode_mem, int maxnef)$/;"	f
+CVodeSetMaxHnilWarns	cvode/cvode_io.c	/^int CVodeSetMaxHnilWarns(void *cvode_mem, int mxhnil)$/;"	f
+CVodeSetMaxNonlinIters	cvode/cvode_io.c	/^int CVodeSetMaxNonlinIters(void *cvode_mem, int maxcor)$/;"	f
+CVodeSetMaxNumSteps	cvode/cvode_io.c	/^int CVodeSetMaxNumSteps(void *cvode_mem, long int mxsteps)$/;"	f
+CVodeSetMaxOrd	cvode/cvode_io.c	/^int CVodeSetMaxOrd(void *cvode_mem, int maxord)$/;"	f
+CVodeSetMaxStep	cvode/cvode_io.c	/^int CVodeSetMaxStep(void *cvode_mem, realtype hmax)$/;"	f
+CVodeSetMinStep	cvode/cvode_io.c	/^int CVodeSetMinStep(void *cvode_mem, realtype hmin)$/;"	f
+CVodeSetNonlinConvCoef	cvode/cvode_io.c	/^int CVodeSetNonlinConvCoef(void *cvode_mem, realtype nlscoef)$/;"	f
+CVodeSetStabLimDet	cvode/cvode_io.c	/^int CVodeSetStabLimDet(void *cvode_mem, booleantype sldet)$/;"	f
+CVodeSetStopTime	cvode/cvode_io.c	/^int CVodeSetStopTime(void *cvode_mem, realtype tstop)$/;"	f
+CVodeSetTolerances	cvode/cvode_io.c	/^int CVodeSetTolerances(void *cvode_mem, $/;"	f
+CVsldet	cvode/cvode.c	/^static int CVsldet(CVodeMem cv_mem)$/;"	f	file:
+C_param	odtparam.h	/^        double  C_param;         \/\/\/<  Eddy frequency parameter $/;"	m	class:odtparam
+DAtimeFac	odtparam.h	/^        double  DAtimeFac;       \/\/\/<  time until catch-up adaption is DAtimeFac * dtCUmax$/;"	m	class:odtparam
+DENSE_COL	cvode/sundials_dense.h	/^#define DENSE_COL(/;"	d
+DENSE_ELEM	cvode/sundials_dense.h	/^#define DENSE_ELEM(/;"	d
+DGMAX	cvode/cvode.c	/^#define DGMAX /;"	d	file:
+DO_ERROR_TEST	cvode/cvode.c	/^#define DO_ERROR_TEST /;"	d	file:
+DenseAddI	cvode/sundials_dense.c	/^void DenseAddI(DenseMat A)$/;"	f
+DenseAllocMat	cvode/sundials_dense.c	/^DenseMat DenseAllocMat(long int M, long int N)$/;"	f
+DenseAllocPiv	cvode/sundials_dense.c	/^long int *DenseAllocPiv(long int N)$/;"	f
+DenseCopy	cvode/sundials_dense.c	/^void DenseCopy(DenseMat A, DenseMat B)$/;"	f
+DenseFreeMat	cvode/sundials_dense.c	/^void DenseFreeMat(DenseMat A)$/;"	f
+DenseFreePiv	cvode/sundials_dense.c	/^void DenseFreePiv(long int *p)$/;"	f
+DenseGETRF	cvode/sundials_dense.c	/^long int DenseGETRF(DenseMat A, long int *p)$/;"	f
+DenseGETRS	cvode/sundials_dense.c	/^void DenseGETRS(DenseMat A, long int *p, realtype *b)$/;"	f
+DenseMat	cvode/sundials_dense.h	/^  } *DenseMat;$/;"	t	typeref:struct:_DenseMat
+DensePrint	cvode/sundials_dense.c	/^void DensePrint(DenseMat A)$/;"	f
+DenseScale	cvode/sundials_dense.c	/^void DenseScale(realtype c, DenseMat A)$/;"	f
+DenseZero	cvode/sundials_dense.c	/^void DenseZero(DenseMat A)$/;"	f
+EDDY_H	eddy.h	/^#define EDDY_H$/;"	d
+ETACF	cvode/cvode.c	/^#define ETACF /;"	d	file:
+ETAMIN	cvode/cvode.c	/^#define ETAMIN /;"	d	file:
+ETAMX1	cvode/cvode.c	/^#define ETAMX1 /;"	d	file:
+ETAMX2	cvode/cvode.c	/^#define ETAMX2 /;"	d	file:
+ETAMX3	cvode/cvode.c	/^#define ETAMX3 /;"	d	file:
+ETAMXF	cvode/cvode.c	/^#define ETAMXF /;"	d	file:
+EXP	cvode/sundials_math.h	/^#define EXP /;"	d
+FALSE	cvode/sundials_types.h	/^#define FALSE /;"	d
+FIRST_CALL	cvode/cvode.c	/^#define FIRST_CALL /;"	d	file:
+FIVE	cvode/cvode.c	/^#define FIVE /;"	d	file:
+FOUR	cvode/cvode.c	/^#define FOUR /;"	d	file:
+FOURTH	cvode/cvode.c	/^#define FOURTH /;"	d	file:
+FUZZ_FACTOR	cvode/cvode.c	/^#define FUZZ_FACTOR /;"	d	file:
+HALF	cvode/cvode.c	/^#define HALF /;"	d	file:
+HALF	cvode/nvector_serial.c	/^#define HALF /;"	d	file:
+HLB_FACTOR	cvode/cvode.c	/^#define HLB_FACTOR /;"	d	file:
+HMAX_INV_DEFAULT	cvode/cvode_impl.h	/^#define HMAX_INV_DEFAULT /;"	d
+HMIN_DEFAULT	cvode/cvode_impl.h	/^#define HMIN_DEFAULT /;"	d
+HUB_FACTOR	cvode/cvode.c	/^#define HUB_FACTOR /;"	d	file:
+HUN	cvode/cvode.c	/^#define HUN /;"	d	file:
+H_BIAS	cvode/cvode.c	/^#define H_BIAS /;"	d	file:
+INITROOT	cvode/cvode.c	/^#define INITROOT /;"	d	file:
+INPUTOUTPUT_H	inputoutput.h	/^#define INPUTOUTPUT_H$/;"	d
+J_data	cvode/cvode_dense.c	/^#define J_data /;"	d	file:
+K	eddy.h	/^        vector<double>      K;                  \/\/\/< eddy kernel K$/;"	m	class:eddy
+L	cvode/cvode.c	/^#define L /;"	d	file:
+LES_type	odtparam.h	/^        string  LES_type;        \/\/\/<  NONE, THIRDS, ELAPSEDTIME, FRACDOMAIN, INTEGRALSCALE$/;"	m	class:odtparam
+LONG_WAIT	cvode/cvode.c	/^#define LONG_WAIT /;"	d	file:
+LV_CHI_H	linevariables/lv_chi.h	/^#define LV_CHI_H$/;"	d
+LV_ENTH_H	linevariables/lv_enth.h	/^#define LV_ENTH_H$/;"	d
+LV_H	linevariables/lv.h	/^#define LV_H$/;"	d
+LV_HR_H	linevariables/lv_hr.h	/^#define LV_HR_H$/;"	d
+LV_KVISC_CONST_H	linevariables/lv_dvisc_const.h	/^#define LV_KVISC_CONST_H$/;"	d
+LV_KVISC_H	linevariables/lv_dvisc.h	/^#define LV_KVISC_H$/;"	d
+LV_MIXF_H	linevariables/lv_mixf.h	/^#define LV_MIXF_H$/;"	d
+LV_POSF_H	linevariables/lv_posf.h	/^#define LV_POSF_H$/;"	d
+LV_POS_H	linevariables/lv_pos.h	/^#define LV_POS_H$/;"	d
+LV_RHO_CONST_H	linevariables/lv_rho_const.h	/^#define LV_RHO_CONST_H$/;"	d
+LV_RHO_H	linevariables/lv_rho.h	/^#define LV_RHO_H$/;"	d
+LV_TEMP_H	linevariables/lv_temp.h	/^#define LV_TEMP_H$/;"	d
+LV_UVW_H	linevariables/lv_uvw.h	/^#define LV_UVW_H$/;"	d
+LV_YGAS_H	linevariables/lv_ygas.h	/^#define LV_YGAS_H$/;"	d
+LV_YGAS_RSOOT_H	linevariables/lv_ygas_Rsoot.h	/^#define LV_YGAS_RSOOT_H$/;"	d
+L_MAX	cvode/cvode_impl.h	/^#define L_MAX /;"	d
+L_output	linevariables/lv.h	/^        bool                          L_output;               \/\/\/< flag true if included in output$/;"	m	class:lv
+L_transported	linevariables/lv.h	/^        bool                          L_transported;          \/\/\/< flag true if var is transported$/;"	m	class:lv
+LagSrc	linevariables/lv.h	/^        bool                          LagSrc;                 \/\/\/< flag to lag source term in implicit solve (initially put in for enthalpy radiation)$/;"	m	class:lv
+Lbuoyant	odtparam.h	/^        bool    Lbuoyant;        \/\/\/<  flag to turn on bouyancy$/;"	m	class:odtparam
+Ldestruct	cvodeDriver.h	/^        bool                Ldestruct;       \/\/\/< true if we setup cvode and can therefore destruct$/;"	m	class:cvodeDriver
+LdoDump	inputoutput.h	/^        bool                     LdoDump;        \/\/\/< flag for whether we are dumping a file$/;"	m	class:inputoutput
+LdoDump	micromixer.h	/^        bool           LdoDump;        \/\/\/$/;"	m	class:micromixer
+Ldomain	odtline.cc	/^double odtline::Ldomain() {$/;"	f	class:odtline
+LeddyAccepted	solver.h	/^        bool           LeddyAccepted;  \/\/\/< flag for accepted eddy$/;"	m	class:solver
+Llem	odtparam.h	/^        bool    Llem;            \/\/\/<  true if LEM $/;"	m	class:odtparam
+Lmax	odtparam.h	/^        double  Lmax;            \/\/\/<  Max eddy size frac of domainLength$/;"	m	class:odtparam
+Lmin	odtparam.h	/^        double  Lmin;            \/\/\/<  Min eddy size frac of domainLength$/;"	m	class:odtparam
+LmultiPhase	odtparam.h	/^        bool    LmultiPhase;     \/\/\/<  true if line has more than one "line" phase (soot or particles don't count.)$/;"	m	class:odtparam
+Lp	odtparam.h	/^        double  Lp;              \/\/\/<  Most probable eddy size frac of domainLength$/;"	m	class:odtparam
+Lperiodic	odtparam.h	/^        bool    Lperiodic;       \/\/\/<  periodic if true$/;"	m	class:odtparam
+LperiodicEddy	eddy.h	/^        bool                LperiodicEddy;      \/\/\/< a wrap-around eddy$/;"	m	class:eddy
+Lrestart	odtparam.h	/^        bool    Lrestart;        \/\/\/<  true to restart from file, else false$/;"	m	class:odtparam
+Lsolver	odtparam.h	/^        string  Lsolver;         \/\/\/<  EXPLICIT, SEMI-IMPLICIT, or STRANG$/;"	m	class:odtparam
+Lspatial	odtparam.h	/^        bool    Lspatial;        \/\/\/<  spatial formulation if true$/;"	m	class:odtparam
+M	MersenneTwister.h	/^	enum { M = 397 };  \/\/ period parameter$/;"	e	enum:MTRand::__anon4
+M	cvode/cvode_dense.c	/^#define M /;"	d	file:
+M	cvode/sundials_dense.h	/^    long int M;$/;"	m	struct:_DenseMat
+MAX	cvode/sundials_math.h	/^#define MAX(/;"	d
+MAX_ITERS	cvode/cvode.c	/^#define MAX_ITERS /;"	d	file:
+MERSENNETWISTER_H	MersenneTwister.h	/^#define MERSENNETWISTER_H$/;"	d
+MESHMANAGER_H	meshManager.h	/^#define MESHMANAGER_H$/;"	d
+MICROMIXER_H	micromixer.h	/^#define MICROMIXER_H$/;"	d
+MIN	cvode/sundials_math.h	/^#define MIN(/;"	d
+MIN_INC_MULT	cvode/cvode_dense.c	/^#define MIN_INC_MULT /;"	d	file:
+MSBP	cvode/cvode.c	/^#define MSBP /;"	d	file:
+MSGCV_BAD_ABSTOL	cvode/cvode_impl.h	/^#define MSGCV_BAD_ABSTOL /;"	d
+MSGCV_BAD_EWT	cvode/cvode_impl.h	/^#define MSGCV_BAD_EWT /;"	d
+MSGCV_BAD_H0	cvode/cvode_impl.h	/^#define MSGCV_BAD_H0 /;"	d
+MSGCV_BAD_HMIN_HMAX	cvode/cvode_impl.h	/^#define MSGCV_BAD_HMIN_HMAX /;"	d
+MSGCV_BAD_INIT_ROOT	cvode/cvode_impl.h	/^#define MSGCV_BAD_INIT_ROOT /;"	d
+MSGCV_BAD_ITASK	cvode/cvode_impl.h	/^#define MSGCV_BAD_ITASK /;"	d
+MSGCV_BAD_ITER	cvode/cvode_impl.h	/^#define MSGCV_BAD_ITER /;"	d
+MSGCV_BAD_ITOL	cvode/cvode_impl.h	/^#define MSGCV_BAD_ITOL /;"	d
+MSGCV_BAD_K	cvode/cvode_impl.h	/^#define MSGCV_BAD_K /;"	d
+MSGCV_BAD_LMM	cvode/cvode_impl.h	/^#define MSGCV_BAD_LMM /;"	d
+MSGCV_BAD_MAXORD	cvode/cvode_impl.h	/^#define MSGCV_BAD_MAXORD /;"	d
+MSGCV_BAD_NVECTOR	cvode/cvode_impl.h	/^#define MSGCV_BAD_NVECTOR /;"	d
+MSGCV_BAD_RELTOL	cvode/cvode_impl.h	/^#define MSGCV_BAD_RELTOL /;"	d
+MSGCV_BAD_T	cvode/cvode_impl.h	/^#define MSGCV_BAD_T /;"	d
+MSGCV_BAD_TOUT	cvode/cvode_impl.h	/^#define MSGCV_BAD_TOUT /;"	d
+MSGCV_BAD_TSTOP	cvode/cvode_impl.h	/^#define MSGCV_BAD_TSTOP /;"	d
+MSGCV_CLOSE_ROOTS	cvode/cvode_impl.h	/^#define MSGCV_CLOSE_ROOTS /;"	d
+MSGCV_CONV_FAILS	cvode/cvode_impl.h	/^#define MSGCV_CONV_FAILS /;"	d
+MSGCV_CVMEM_FAIL	cvode/cvode_impl.h	/^#define MSGCV_CVMEM_FAIL /;"	d
+MSGCV_ERR_FAILS	cvode/cvode_impl.h	/^#define MSGCV_ERR_FAILS /;"	d
+MSGCV_EWT_FAIL	cvode/cvode_impl.h	/^#define MSGCV_EWT_FAIL /;"	d
+MSGCV_EWT_NOW_BAD	cvode/cvode_impl.h	/^#define MSGCV_EWT_NOW_BAD /;"	d
+MSGCV_EWT_NOW_FAIL	cvode/cvode_impl.h	/^#define MSGCV_EWT_NOW_FAIL /;"	d
+MSGCV_HNIL	cvode/cvode_impl.h	/^#define MSGCV_HNIL /;"	d
+MSGCV_HNIL_DONE	cvode/cvode_impl.h	/^#define MSGCV_HNIL_DONE /;"	d
+MSGCV_LINIT_FAIL	cvode/cvode_impl.h	/^#define MSGCV_LINIT_FAIL /;"	d
+MSGCV_LSOLVE_NULL	cvode/cvode_impl.h	/^#define MSGCV_LSOLVE_NULL /;"	d
+MSGCV_MAX_STEPS	cvode/cvode_impl.h	/^#define MSGCV_MAX_STEPS /;"	d
+MSGCV_MEM_FAIL	cvode/cvode_impl.h	/^#define MSGCV_MEM_FAIL /;"	d
+MSGCV_NEG_HMAX	cvode/cvode_impl.h	/^#define MSGCV_NEG_HMAX /;"	d
+MSGCV_NEG_HMIN	cvode/cvode_impl.h	/^#define MSGCV_NEG_HMIN /;"	d
+MSGCV_NEG_MAXORD	cvode/cvode_impl.h	/^#define MSGCV_NEG_MAXORD /;"	d
+MSGCV_NEG_MXSTEPS	cvode/cvode_impl.h	/^#define MSGCV_NEG_MXSTEPS /;"	d
+MSGCV_NO_EFUN	cvode/cvode_impl.h	/^#define MSGCV_NO_EFUN /;"	d
+MSGCV_NO_MALLOC	cvode/cvode_impl.h	/^#define MSGCV_NO_MALLOC /;"	d
+MSGCV_NO_MEM	cvode/cvode_impl.h	/^#define MSGCV_NO_MEM /;"	d
+MSGCV_NO_TSTOP	cvode/cvode_impl.h	/^#define MSGCV_NO_TSTOP /;"	d
+MSGCV_NULL_ABSTOL	cvode/cvode_impl.h	/^#define MSGCV_NULL_ABSTOL /;"	d
+MSGCV_NULL_DKY	cvode/cvode_impl.h	/^#define MSGCV_NULL_DKY /;"	d
+MSGCV_NULL_F	cvode/cvode_impl.h	/^#define MSGCV_NULL_F /;"	d
+MSGCV_NULL_G	cvode/cvode_impl.h	/^#define MSGCV_NULL_G /;"	d
+MSGCV_NULL_Y0	cvode/cvode_impl.h	/^#define MSGCV_NULL_Y0 /;"	d
+MSGCV_RHSFUNC_FAILED	cvode/cvode_impl.h	/^#define MSGCV_RHSFUNC_FAILED /;"	d
+MSGCV_RHSFUNC_FIRST	cvode/cvode_impl.h	/^#define MSGCV_RHSFUNC_FIRST /;"	d
+MSGCV_RHSFUNC_REPTD	cvode/cvode_impl.h	/^#define MSGCV_RHSFUNC_REPTD /;"	d
+MSGCV_RHSFUNC_UNREC	cvode/cvode_impl.h	/^#define MSGCV_RHSFUNC_UNREC /;"	d
+MSGCV_RTFUNC_FAILED	cvode/cvode_impl.h	/^#define MSGCV_RTFUNC_FAILED /;"	d
+MSGCV_SETUP_FAILED	cvode/cvode_impl.h	/^#define MSGCV_SETUP_FAILED /;"	d
+MSGCV_SET_SLDET	cvode/cvode_impl.h	/^#define MSGCV_SET_SLDET /;"	d
+MSGCV_SOLVE_FAILED	cvode/cvode_impl.h	/^#define MSGCV_SOLVE_FAILED /;"	d
+MSGCV_TOO_CLOSE	cvode/cvode_impl.h	/^#define MSGCV_TOO_CLOSE /;"	d
+MSGCV_TOO_MUCH_ACC	cvode/cvode_impl.h	/^#define MSGCV_TOO_MUCH_ACC /;"	d
+MSGCV_TRET_NULL	cvode/cvode_impl.h	/^#define MSGCV_TRET_NULL /;"	d
+MSGCV_YOUT_NULL	cvode/cvode_impl.h	/^#define MSGCV_YOUT_NULL /;"	d
+MSGDS_BAD_NVECTOR	cvode/cvode_dense_impl.h	/^#define MSGDS_BAD_NVECTOR /;"	d
+MSGDS_CVMEM_NULL	cvode/cvode_dense_impl.h	/^#define MSGDS_CVMEM_NULL /;"	d
+MSGDS_JACFUNC_FAILED	cvode/cvode_dense_impl.h	/^#define MSGDS_JACFUNC_FAILED /;"	d
+MSGDS_LMEM_NULL	cvode/cvode_dense_impl.h	/^#define MSGDS_LMEM_NULL /;"	d
+MSGDS_MEM_FAIL	cvode/cvode_dense_impl.h	/^#define MSGDS_MEM_FAIL /;"	d
+MSG_TIME	cvode/cvode_impl.h	/^#define MSG_TIME /;"	d
+MSG_TIME_H	cvode/cvode_impl.h	/^#define MSG_TIME_H /;"	d
+MSG_TIME_INT	cvode/cvode_impl.h	/^#define MSG_TIME_INT /;"	d
+MSG_TIME_TOUT	cvode/cvode_impl.h	/^#define MSG_TIME_TOUT /;"	d
+MTRand	MersenneTwister.h	/^class MTRand {$/;"	c
+MTRand	MersenneTwister.h	/^inline MTRand::MTRand( const uint32& oneSeed )$/;"	f	class:MTRand
+MTRand	MersenneTwister.h	/^inline MTRand::MTRand( uint32 *const bigSeed, const uint32 seedLength )$/;"	f	class:MTRand
+MTRand	MersenneTwister.h	/^inline MTRand::MTRand()$/;"	f	class:MTRand
+MXHNIL_DEFAULT	cvode/cvode_impl.h	/^#define MXHNIL_DEFAULT /;"	d
+MXNCF	cvode/cvode.c	/^#define MXNCF /;"	d	file:
+MXNEF	cvode/cvode.c	/^#define MXNEF /;"	d	file:
+MXNEF1	cvode/cvode.c	/^#define MXNEF1 /;"	d	file:
+MXSTEP_DEFAULT	cvode/cvode_impl.h	/^#define MXSTEP_DEFAULT /;"	d
+N	MersenneTwister.h	/^	enum { N = 624 };       \/\/ length of state vector$/;"	e	enum:MTRand::__anon2
+N	cvode/sundials_dense.h	/^    long int N;$/;"	m	struct:_DenseMat
+NLS_MAXCOR	cvode/cvode.c	/^#define NLS_MAXCOR /;"	d	file:
+NUM_TESTS	cvode/cvode_impl.h	/^#define NUM_TESTS /;"	d
+NV_CONTENT_S	cvode/nvector_serial.h	/^#define NV_CONTENT_S(/;"	d
+NV_DATA_S	cvode/nvector_serial.h	/^#define NV_DATA_S(/;"	d
+NV_Ith_S	cvode/nvector_serial.h	/^#define NV_Ith_S(/;"	d
+NV_LENGTH_S	cvode/nvector_serial.h	/^#define NV_LENGTH_S(/;"	d
+NV_OWN_DATA_S	cvode/nvector_serial.h	/^#define NV_OWN_DATA_S(/;"	d
+N_VAbs	cvode/sundials_nvector.c	/^void N_VAbs(N_Vector x, N_Vector z)$/;"	f
+N_VAbs_Serial	cvode/nvector_serial.c	/^void N_VAbs_Serial(N_Vector x, N_Vector z)$/;"	f
+N_VAddConst	cvode/sundials_nvector.c	/^void N_VAddConst(N_Vector x, realtype b, N_Vector z)$/;"	f
+N_VAddConst_Serial	cvode/nvector_serial.c	/^void N_VAddConst_Serial(N_Vector x, realtype b, N_Vector z)$/;"	f
+N_VClone	cvode/sundials_nvector.c	/^N_Vector N_VClone(N_Vector w)$/;"	f
+N_VCloneEmpty	cvode/sundials_nvector.c	/^N_Vector N_VCloneEmpty(N_Vector w)$/;"	f
+N_VCloneEmptyVectorArray	cvode/sundials_nvector.c	/^N_Vector *N_VCloneEmptyVectorArray(int count, N_Vector w)$/;"	f
+N_VCloneEmpty_Serial	cvode/nvector_serial.c	/^N_Vector N_VCloneEmpty_Serial(N_Vector w)$/;"	f
+N_VCloneVectorArray	cvode/sundials_nvector.c	/^N_Vector *N_VCloneVectorArray(int count, N_Vector w)$/;"	f
+N_VCloneVectorArrayEmpty_Serial	cvode/nvector_serial.c	/^N_Vector *N_VCloneVectorArrayEmpty_Serial(int count, N_Vector w)$/;"	f
+N_VCloneVectorArray_Serial	cvode/nvector_serial.c	/^N_Vector *N_VCloneVectorArray_Serial(int count, N_Vector w)$/;"	f
+N_VClone_Serial	cvode/nvector_serial.c	/^N_Vector N_VClone_Serial(N_Vector w)$/;"	f
+N_VCompare	cvode/sundials_nvector.c	/^void N_VCompare(realtype c, N_Vector x, N_Vector z)$/;"	f
+N_VCompare_Serial	cvode/nvector_serial.c	/^void N_VCompare_Serial(realtype c, N_Vector x, N_Vector z)$/;"	f
+N_VConst	cvode/sundials_nvector.c	/^void N_VConst(realtype c, N_Vector z)$/;"	f
+N_VConst_Serial	cvode/nvector_serial.c	/^void N_VConst_Serial(realtype c, N_Vector z)$/;"	f
+N_VConstrMask	cvode/sundials_nvector.c	/^booleantype N_VConstrMask(N_Vector c, N_Vector x, N_Vector m)$/;"	f
+N_VConstrMask_Serial	cvode/nvector_serial.c	/^booleantype N_VConstrMask_Serial(N_Vector c, N_Vector x, N_Vector m)$/;"	f
+N_VDestroy	cvode/sundials_nvector.c	/^void N_VDestroy(N_Vector v)$/;"	f
+N_VDestroyVectorArray	cvode/sundials_nvector.c	/^void N_VDestroyVectorArray(N_Vector *vs, int count)$/;"	f
+N_VDestroyVectorArray_Serial	cvode/nvector_serial.c	/^void N_VDestroyVectorArray_Serial(N_Vector *vs, int count)$/;"	f
+N_VDestroy_Serial	cvode/nvector_serial.c	/^void N_VDestroy_Serial(N_Vector v)$/;"	f
+N_VDiv	cvode/sundials_nvector.c	/^void N_VDiv(N_Vector x, N_Vector y, N_Vector z)$/;"	f
+N_VDiv_Serial	cvode/nvector_serial.c	/^void N_VDiv_Serial(N_Vector x, N_Vector y, N_Vector z)$/;"	f
+N_VDotProd	cvode/sundials_nvector.c	/^realtype N_VDotProd(N_Vector x, N_Vector y)$/;"	f
+N_VDotProd_Serial	cvode/nvector_serial.c	/^realtype N_VDotProd_Serial(N_Vector x, N_Vector y)$/;"	f
+N_VGetArrayPointer	cvode/sundials_nvector.c	/^realtype *N_VGetArrayPointer(N_Vector v)$/;"	f
+N_VGetArrayPointer_Serial	cvode/nvector_serial.c	/^realtype *N_VGetArrayPointer_Serial(N_Vector v)$/;"	f
+N_VInv	cvode/sundials_nvector.c	/^void N_VInv(N_Vector x, N_Vector z)$/;"	f
+N_VInvTest	cvode/sundials_nvector.c	/^booleantype N_VInvTest(N_Vector x, N_Vector z)$/;"	f
+N_VInvTest_Serial	cvode/nvector_serial.c	/^booleantype N_VInvTest_Serial(N_Vector x, N_Vector z)$/;"	f
+N_VInv_Serial	cvode/nvector_serial.c	/^void N_VInv_Serial(N_Vector x, N_Vector z)$/;"	f
+N_VL1Norm	cvode/sundials_nvector.c	/^realtype N_VL1Norm(N_Vector x)$/;"	f
+N_VL1Norm_Serial	cvode/nvector_serial.c	/^realtype N_VL1Norm_Serial(N_Vector x)$/;"	f
+N_VLinearSum	cvode/sundials_nvector.c	/^void N_VLinearSum(realtype a, N_Vector x, realtype b, N_Vector y, N_Vector z)$/;"	f
+N_VLinearSum_Serial	cvode/nvector_serial.c	/^void N_VLinearSum_Serial(realtype a, N_Vector x, realtype b, N_Vector y, N_Vector z)$/;"	f
+N_VMake_Serial	cvode/nvector_serial.c	/^N_Vector N_VMake_Serial(long int length, realtype *v_data)$/;"	f
+N_VMaxNorm	cvode/sundials_nvector.c	/^realtype N_VMaxNorm(N_Vector x)$/;"	f
+N_VMaxNorm_Serial	cvode/nvector_serial.c	/^realtype N_VMaxNorm_Serial(N_Vector x)$/;"	f
+N_VMin	cvode/sundials_nvector.c	/^realtype N_VMin(N_Vector x)$/;"	f
+N_VMinQuotient	cvode/sundials_nvector.c	/^realtype N_VMinQuotient(N_Vector num, N_Vector denom)$/;"	f
+N_VMinQuotient_Serial	cvode/nvector_serial.c	/^realtype N_VMinQuotient_Serial(N_Vector num, N_Vector denom)$/;"	f
+N_VMin_Serial	cvode/nvector_serial.c	/^realtype N_VMin_Serial(N_Vector x)$/;"	f
+N_VNewEmpty_Serial	cvode/nvector_serial.c	/^N_Vector N_VNewEmpty_Serial(long int length)$/;"	f
+N_VNew_Serial	cvode/nvector_serial.c	/^N_Vector N_VNew_Serial(long int length)$/;"	f
+N_VPrint_Serial	cvode/nvector_serial.c	/^void N_VPrint_Serial(N_Vector x)$/;"	f
+N_VProd	cvode/sundials_nvector.c	/^void N_VProd(N_Vector x, N_Vector y, N_Vector z)$/;"	f
+N_VProd_Serial	cvode/nvector_serial.c	/^void N_VProd_Serial(N_Vector x, N_Vector y, N_Vector z)$/;"	f
+N_VScale	cvode/sundials_nvector.c	/^void N_VScale(realtype c, N_Vector x, N_Vector z) $/;"	f
+N_VScale_Serial	cvode/nvector_serial.c	/^void N_VScale_Serial(realtype c, N_Vector x, N_Vector z)$/;"	f
+N_VSetArrayPointer	cvode/sundials_nvector.c	/^void N_VSetArrayPointer(realtype *v_data, N_Vector v)$/;"	f
+N_VSetArrayPointer_Serial	cvode/nvector_serial.c	/^void N_VSetArrayPointer_Serial(realtype *v_data, N_Vector v)$/;"	f
+N_VSpace	cvode/sundials_nvector.c	/^void N_VSpace(N_Vector v, long int *lrw, long int *liw)$/;"	f
+N_VSpace_Serial	cvode/nvector_serial.c	/^void N_VSpace_Serial(N_Vector v, long int *lrw, long int *liw)$/;"	f
+N_VWL2Norm	cvode/sundials_nvector.c	/^realtype N_VWL2Norm(N_Vector x, N_Vector w)$/;"	f
+N_VWL2Norm_Serial	cvode/nvector_serial.c	/^realtype N_VWL2Norm_Serial(N_Vector x, N_Vector w)$/;"	f
+N_VWrmsNorm	cvode/sundials_nvector.c	/^realtype N_VWrmsNorm(N_Vector x, N_Vector w)$/;"	f
+N_VWrmsNormMask	cvode/sundials_nvector.c	/^realtype N_VWrmsNormMask(N_Vector x, N_Vector w, N_Vector id)$/;"	f
+N_VWrmsNormMask_Serial	cvode/nvector_serial.c	/^realtype N_VWrmsNormMask_Serial(N_Vector x, N_Vector w, N_Vector id)$/;"	f
+N_VWrmsNorm_Serial	cvode/nvector_serial.c	/^realtype N_VWrmsNorm_Serial(N_Vector x, N_Vector w)$/;"	f
+N_Vector	cvode/sundials_nvector.h	/^typedef struct _generic_N_Vector *N_Vector;$/;"	t	typeref:struct:_generic_N_Vector
+N_VectorContent_Serial	cvode/nvector_serial.h	/^typedef struct _N_VectorContent_Serial *N_VectorContent_Serial;$/;"	t	typeref:struct:_N_VectorContent_Serial
+N_Vector_Ops	cvode/sundials_nvector.h	/^typedef struct _generic_N_Vector_Ops *N_Vector_Ops;$/;"	t	typeref:struct:_generic_N_Vector_Ops
+N_Vector_S	cvode/sundials_nvector.h	/^typedef N_Vector *N_Vector_S;$/;"	t
+ODTCASE_CHANNEL_H	odtcases/odtcase_channel.h	/^#define ODTCASE_CHANNEL_H$/;"	d
+ODTCASE_H	odtcases/odtcase.h	/^#define ODTCASE_H$/;"	d
+ODTCASE_JETMIXLRXN_H	odtcases/odtcase_jetMixlRxn.h	/^#define ODTCASE_JETMIXLRXN_H$/;"	d
+ODTLINE_H	odtline.h	/^#define ODTLINE_H$/;"	d
+ODTPARAM_H	odtparam.h	/^#define ODTPARAM_H$/;"	d
+ONE	cvode/cvode.c	/^#define ONE /;"	d	file:
+ONE	cvode/cvode_dense.c	/^#define ONE /;"	d	file:
+ONE	cvode/cvode_io.c	/^#define ONE /;"	d	file:
+ONE	cvode/nvector_serial.c	/^#define ONE /;"	d	file:
+ONE	cvode/sundials_dense.c	/^#define ONE /;"	d	file:
+ONE	cvode/sundials_math.c	/^#define ONE /;"	d	file:
+ONE	cvode/sundials_smalldense.c	/^#define ONE /;"	d	file:
+ONEPSM	cvode/cvode.c	/^#define ONEPSM /;"	d	file:
+ONEPT5	cvode/nvector_serial.c	/^#define ONEPT5 /;"	d	file:
+POINT2	cvode/cvode.c	/^#define POINT2 /;"	d	file:
+PREDICT_AGAIN	cvode/cvode.c	/^#define PREDICT_AGAIN /;"	d	file:
+PREV_CONV_FAIL	cvode/cvode.c	/^#define PREV_CONV_FAIL /;"	d	file:
+PREV_ERR_FAIL	cvode/cvode.c	/^#define PREV_ERR_FAIL /;"	d	file:
+PROCESSOR_H	processor.h	/^#define PROCESSOR_H$/;"	d
+Pa	eddy.h	/^        double              Pa;                 \/\/\/< eddy acceptance probability$/;"	m	class:eddy
+PaSum	solver.h	/^        double         PaSum;          \/\/\/< sum of Pa of eddies$/;"	m	class:solver
+PaSumC	solver.h	/^        double         PaSumC;         \/\/\/< sum of Pa of eddies$/;"	m	class:solver
+Pav	odtparam.h	/^        double  Pav;             \/\/\/<  Average acceptance probability$/;"	m	class:odtparam
+Pmax	odtparam.h	/^        double  Pmax;            \/\/\/<  maximum eddy acceptance probability$/;"	m	class:odtparam
+Q_MAX	cvode/cvode_impl.h	/^#define Q_MAX /;"	d
+RADIATION_H	radiation.h	/^#define RADIATION_H$/;"	d
+RAbs	cvode/sundials_math.c	/^realtype RAbs(realtype x)$/;"	f
+RCONST	cvode/sundials_types.h	/^#define RCONST(/;"	d
+RDIV	cvode/cvode.c	/^#define RDIV /;"	d	file:
+RExp	cvode/sundials_math.c	/^realtype RExp(realtype x)$/;"	f
+RHSF	cvodeDriver.cc	/^static int RHSF(double t, N_Vector y, N_Vector ydot, void* f_data) {$/;"	f	file:
+RHSFUNC_RECVR	cvode/cvode.c	/^#define RHSFUNC_RECVR /;"	d	file:
+RPowerI	cvode/sundials_math.c	/^realtype RPowerI(realtype base, int exponent)$/;"	f
+RPowerR	cvode/sundials_math.c	/^realtype RPowerR(realtype base, realtype exponent)$/;"	f
+RRRNG_H	randomGenerator.h	/^#define RRRNG_H$/;"	d
+RSqrt	cvode/sundials_math.c	/^realtype RSqrt(realtype x)$/;"	f
+RTFOUND	cvode/cvode.c	/^#define RTFOUND /;"	d	file:
+SAVE	MersenneTwister.h	/^	enum { SAVE = N + 1 };  \/\/ length of array for save()$/;"	e	enum:MTRand::__anon3
+SMALL_NEF	cvode/cvode.c	/^#define SMALL_NEF /;"	d	file:
+SMALL_NST	cvode/cvode.c	/^#define SMALL_NST /;"	d	file:
+SMALL_REAL	cvode/sundials_types.h	/^#define SMALL_REAL /;"	d
+SOLVER_H	solver.h	/^#define SOLVER_H$/;"	d
+SQR	cvode/sundials_math.h	/^#define SQR(/;"	d
+SQRT	cvode/sundials_math.h	/^#define SQRT /;"	d
+STREAMS_H	streams.h	/^#define STREAMS_H$/;"	d
+SUNDIALS_DOUBLE_PRECISION	cvode/sundials_config.h	/^#define SUNDIALS_DOUBLE_PRECISION /;"	d
+SUNDIALS_MPI_COMM_F2C	cvode/sundials_config.h	/^#define SUNDIALS_MPI_COMM_F2C /;"	d
+SUNDIALS_PACKAGE_VERSION	cvode/sundials_config.h	/^#define SUNDIALS_PACKAGE_VERSION /;"	d
+SUNDIALS_USE_GENERIC_MATH	cvode/sundials_config.h	/^#define SUNDIALS_USE_GENERIC_MATH /;"	d
+Sabstol	cvode/cvode.c	/^#define Sabstol /;"	d	file:
+Sd	cvodeDriver.h	/^        vector<double>      Sd;              \/\/\/< variable source dummy$/;"	m	class:cvodeDriver
+T0	streams.h	/^        double         T0;              \/\/\/< stream mixf=0 temperature$/;"	m	class:streams
+T1	streams.h	/^        double         T1;              \/\/\/< stream mixf=1 temperature$/;"	m	class:streams
+TBChi	odtparam.h	/^        double  TBChi;           \/\/\/<  Required if hWallBCtype = ISOTHERMAL$/;"	m	class:odtparam
+TBClo	odtparam.h	/^        double  TBClo;           \/\/\/<  Required if hWallBCtype = ISOTHERMAL$/;"	m	class:odtparam
+TENTH	cvode/cvode.c	/^#define TENTH /;"	d	file:
+THREE	cvode/cvode.c	/^#define THREE /;"	d	file:
+THRESH	cvode/cvode.c	/^#define THRESH /;"	d	file:
+TINY	cvode/cvode.c	/^#define TINY /;"	d	file:
+TRUE	cvode/sundials_types.h	/^#define TRUE /;"	d
+TRY_AGAIN	cvode/cvode.c	/^#define TRY_AGAIN /;"	d	file:
+TWELVE	cvode/cvode.c	/^#define TWELVE /;"	d	file:
+TWO	cvode/cvode.c	/^#define TWO /;"	d	file:
+TWO	cvode/cvode_dense.c	/^#define TWO /;"	d	file:
+UNIT_ROUNDOFF	cvode/sundials_types.h	/^#define UNIT_ROUNDOFF /;"	d
+VCopy_Serial	cvode/nvector_serial.c	/^static void VCopy_Serial(N_Vector x, N_Vector z)$/;"	f	file:
+VDiff_Serial	cvode/nvector_serial.c	/^static void VDiff_Serial(N_Vector x, N_Vector y, N_Vector z)$/;"	f	file:
+VLin1_Serial	cvode/nvector_serial.c	/^static void VLin1_Serial(realtype a, N_Vector x, N_Vector y, N_Vector z)$/;"	f	file:
+VLin2_Serial	cvode/nvector_serial.c	/^static void VLin2_Serial(realtype a, N_Vector x, N_Vector y, N_Vector z)$/;"	f	file:
+VNeg_Serial	cvode/nvector_serial.c	/^static void VNeg_Serial(N_Vector x, N_Vector z)$/;"	f	file:
+VScaleBy_Serial	cvode/nvector_serial.c	/^static void VScaleBy_Serial(realtype a, N_Vector x)$/;"	f	file:
+VScaleDiff_Serial	cvode/nvector_serial.c	/^static void VScaleDiff_Serial(realtype c, N_Vector x, N_Vector y, N_Vector z)$/;"	f	file:
+VScaleSum_Serial	cvode/nvector_serial.c	/^static void VScaleSum_Serial(realtype c, N_Vector x, N_Vector y, N_Vector z)$/;"	f	file:
+VSum_Serial	cvode/nvector_serial.c	/^static void VSum_Serial(N_Vector x, N_Vector y, N_Vector z)$/;"	f	file:
+Vabstol	cvode/cvode.c	/^#define Vabstol /;"	d	file:
+Vaxpy_Serial	cvode/nvector_serial.c	/^static void Vaxpy_Serial(realtype a, N_Vector x, N_Vector y)$/;"	f	file:
+X	meshManager.h	/^        vector<double>           X;         \/\/\/< vector of cell center positions$/;"	m	class:meshManager
+ZERO	cvode/cvode.c	/^#define ZERO /;"	d	file:
+ZERO	cvode/cvode_dense.c	/^#define ZERO /;"	d	file:
+ZERO	cvode/cvode_io.c	/^#define ZERO /;"	d	file:
+ZERO	cvode/nvector_serial.c	/^#define ZERO /;"	d	file:
+ZERO	cvode/sundials_dense.c	/^#define ZERO /;"	d	file:
+ZERO	cvode/sundials_math.c	/^#define ZERO /;"	d	file:
+ZERO	cvode/sundials_smalldense.c	/^#define ZERO /;"	d	file:
+Z_LES	odtparam.h	/^        double  Z_LES;           \/\/\/<  large eddy suppression (nonpositive prevents les test)$/;"	m	class:odtparam
+Z_param	odtparam.h	/^        double  Z_param;         \/\/\/<  Viscous penalty parameter $/;"	m	class:odtparam
+_CVDENSE_H	cvode/cvode_dense.h	/^#define _CVDENSE_H$/;"	d
+_CVDENSE_IMPL_H	cvode/cvode_dense_impl.h	/^#define _CVDENSE_IMPL_H$/;"	d
+_CVODE_H	cvode/cvode.h	/^#define _CVODE_H$/;"	d
+_CVODE_IMPL_H	cvode/cvode_impl.h	/^#define _CVODE_IMPL_H$/;"	d
+_DENSE_H	cvode/sundials_dense.h	/^#define _DENSE_H$/;"	d
+_DenseMat	cvode/sundials_dense.h	/^  typedef struct _DenseMat {$/;"	s
+_NVECTOR_H	cvode/sundials_nvector.h	/^#define _NVECTOR_H$/;"	d
+_NVECTOR_SERIAL_H	cvode/nvector_serial.h	/^#define _NVECTOR_SERIAL_H$/;"	d
+_N_VectorContent_Serial	cvode/nvector_serial.h	/^struct _N_VectorContent_Serial {$/;"	s
+_SMALLDENSE_H	cvode/sundials_smalldense.h	/^#define _SMALLDENSE_H$/;"	d
+_SUNDIALSMATH_H	cvode/sundials_math.h	/^#define _SUNDIALSMATH_H$/;"	d
+_SUNDIALSTYPES_H	cvode/sundials_types.h	/^#define _SUNDIALSTYPES_H$/;"	d
+_SUNDIALS_CONFIG_H	cvode/sundials_types.h	/^#define _SUNDIALS_CONFIG_H$/;"	d
+_generic_N_Vector	cvode/sundials_nvector.h	/^struct _generic_N_Vector {$/;"	s
+_generic_N_Vector_Ops	cvode/sundials_nvector.h	/^struct _generic_N_Vector_Ops {$/;"	s
+acnrm	cvode/cvode.c	/^#define acnrm /;"	d	file:
+acor	cvode/cvode.c	/^#define acor /;"	d	file:
+acor	cvode/cvode_io.c	/^#define acor /;"	d	file:
+adaptAfterSufficientDiffTime	meshManager.cc	/^void meshManager::adaptAfterSufficientDiffTime (const double &time, $/;"	f	class:meshManager
+adaptEddyRegionOfMesh	meshManager.cc	/^void meshManager::adaptEddyRegionOfMesh(int &iStart, int &iEnd, $/;"	f	class:meshManager
+adaptGrid	meshManager.cc	/^void meshManager::adaptGrid(int iLowerDummy, int iUpperDummy) {$/;"	f	class:meshManager
+adaptGrid_details	meshManager.cc	/^void meshManager::adaptGrid_details(int iLowerDummy, int iUpperDummy) {$/;"	f	class:meshManager
+adaptGridsIfNeeded	micromixer.cc	/^bool micromixer::adaptGridsIfNeeded() {$/;"	f	class:micromixer
+advanceOdt	micromixer.cc	/^void micromixer::advanceOdt(const double p_tstart, const double p_tend) {$/;"	f	class:micromixer
+advanceOdtSingleStep_Explicit	micromixer.cc	/^void micromixer::advanceOdtSingleStep_Explicit(){$/;"	f	class:micromixer
+advanceOdtSingleStep_SemiImplicit	micromixer.cc	/^void micromixer::advanceOdtSingleStep_SemiImplicit() {$/;"	f	class:micromixer
+advanceOdtSingleStep_StrangSplit	micromixer.cc	/^void micromixer::advanceOdtSingleStep_StrangSplit() {$/;"	f	class:micromixer
+applyVelocityKernels	eddy.cc	/^void eddy::applyVelocityKernels(odtline *line, const int iS, const int iE) {$/;"	f	class:eddy
+atol	cvodeDriver.h	/^        double              atol;            \/\/\/< CVODE tol$/;"	m	class:cvodeDriver
+bCoef	eddy.h	/^        vector<double>      bCoef;              \/\/\/< coefficient of J kernel$/;"	m	class:eddy
+backCyclePeriodicLine	odtline.cc	/^void odtline::backCyclePeriodicLine(const double backCycleDistance) {$/;"	f	class:odtline
+bcCond	inputoutput.h	/^        YAML::Node               bcCond;         \/\/\/< yaml sub node$/;"	m	class:inputoutput
+bcType	odtparam.h	/^        string  bcType;          \/\/\/<  OUTFLOW, PERIODIC, WALL, WALL_OUT$/;"	m	class:odtparam
+beta0	streams.h	/^        double         beta0;           \/\/\/< mixf = (beta-beta0) \/ (beta1-beta0)$/;"	m	class:streams
+beta1	streams.h	/^        double         beta1;           \/\/\/< mixf = (beta-beta0) \/ (beta1-beta0)$/;"	m	class:streams
+booleantype	cvode/sundials_types.h	/^#define booleantype /;"	d
+cCoef	eddy.h	/^        vector<double>      cCoef;              \/\/\/< coefficient of K kernel$/;"	m	class:eddy
+cCoord	odtparam.h	/^        int     cCoord;          \/\/\/<  1 = planar, 2 = cylindrical, 3 = spherical$/;"	m	class:odtparam
+c_b5	user_chemical_mechanisms/c2h4RedRR.cc	/^static double c_b5 = 10.;$/;"	v	file:
+calcDistance	meshManager.cc	/^double meshManager::calcDistance(const vector<double> &x, const vector<vector<double> > &y,$/;"	f	class:meshManager
+calculateSolution	solver.cc	/^void solver::calculateSolution() {$/;"	f	class:solver
+chemMechFile	odtparam.h	/^        string  chemMechFile;    \/\/\/<  name of chemical mechanism file$/;"	m	class:odtparam
+chi	odtline.h	/^        lv*                     chi;$/;"	m	class:odtline
+comp2	streams.h	/^        int            comp2;           \/\/\/< for premixed combustion to distinguish between different input possibilities for the mixture$/;"	m	class:streams
+computeDtCUmax	solver.cc	/^void solver::computeDtCUmax() {$/;"	f	class:solver
+computeDtSmean	solver.cc	/^void solver::computeDtSmean() {$/;"	f	class:solver
+computeEddyAcceptanceProb	eddy.cc	/^void eddy::computeEddyAcceptanceProb(const double dtSample) {$/;"	f	class:eddy
+content	cvode/sundials_nvector.h	/^  void *content;$/;"	m	struct:_generic_N_Vector
+crate	cvode/cvode.c	/^#define crate /;"	d	file:
+cv_L	cvode/cvode_impl.h	/^    int cv_L;         \/* L = q + 1                               *\/$/;"	m	struct:CVodeMemRec
+cv_MallocDone	cvode/cvode_impl.h	/^    booleantype cv_MallocDone;  $/;"	m	struct:CVodeMemRec
+cv_Sabstol	cvode/cvode_impl.h	/^    realtype cv_Sabstol; \/* scalar absolute tolerance         *\/$/;"	m	struct:CVodeMemRec
+cv_Vabstol	cvode/cvode_impl.h	/^    N_Vector cv_Vabstol; \/* vector absolute tolerance         *\/$/;"	m	struct:CVodeMemRec
+cv_VabstolMallocDone	cvode/cvode_impl.h	/^    booleantype cv_VabstolMallocDone;$/;"	m	struct:CVodeMemRec
+cv_acnrm	cvode/cvode_impl.h	/^    realtype cv_acnrm;   \/* | acor | wrms                            *\/$/;"	m	struct:CVodeMemRec
+cv_acor	cvode/cvode_impl.h	/^    N_Vector cv_acor;    \/* In the context of the solution of the        *\/$/;"	m	struct:CVodeMemRec
+cv_crate	cvode/cvode_impl.h	/^    realtype cv_crate;   \/* estimated corrector convergence rate     *\/$/;"	m	struct:CVodeMemRec
+cv_e_data	cvode/cvode_impl.h	/^    void *cv_e_data;     \/* user pointer passed to efun       *\/$/;"	m	struct:CVodeMemRec
+cv_efun	cvode/cvode_impl.h	/^    CVEwtFn cv_efun;     \/* function to set ewt               *\/$/;"	m	struct:CVodeMemRec
+cv_eh_data	cvode/cvode_impl.h	/^    void *cv_eh_data;           \/* user pointer passed to ehfun            *\/$/;"	m	struct:CVodeMemRec
+cv_ehfun	cvode/cvode_impl.h	/^    CVErrHandlerFn cv_ehfun;    \/* Error messages are handled by ehfun     *\/$/;"	m	struct:CVodeMemRec
+cv_errfp	cvode/cvode_impl.h	/^    FILE *cv_errfp;             \/* CVODE error messages are sent to errfp  *\/$/;"	m	struct:CVodeMemRec
+cv_eta	cvode/cvode_impl.h	/^    realtype cv_eta;    \/* eta = hprime \/ h                       *\/$/;"	m	struct:CVodeMemRec
+cv_etamax	cvode/cvode_impl.h	/^    realtype cv_etamax;   \/* eta <= etamax     *\/$/;"	m	struct:CVodeMemRec
+cv_etaq	cvode/cvode_impl.h	/^    realtype cv_etaq;        \/* ratio of new to old h for order q          *\/$/;"	m	struct:CVodeMemRec
+cv_etaqm1	cvode/cvode_impl.h	/^    realtype cv_etaqm1;      \/* ratio of new to old h for order q-1        *\/$/;"	m	struct:CVodeMemRec
+cv_etaqp1	cvode/cvode_impl.h	/^    realtype cv_etaqp1;      \/* ratio of new to old h for order q+1        *\/$/;"	m	struct:CVodeMemRec
+cv_ewt	cvode/cvode_impl.h	/^    N_Vector cv_ewt;     \/* error weight vector                          *\/$/;"	m	struct:CVodeMemRec
+cv_f	cvode/cvode_impl.h	/^    CVRhsFn cv_f;        \/* y' = f(t,y(t))                    *\/$/;"	m	struct:CVodeMemRec
+cv_f_data	cvode/cvode_impl.h	/^    void *cv_f_data;     \/* user pointer passed to f          *\/$/;"	m	struct:CVodeMemRec
+cv_ftemp	cvode/cvode_impl.h	/^    N_Vector cv_ftemp;   \/* temporary storage vector                     *\/$/;"	m	struct:CVodeMemRec
+cv_g_data	cvode/cvode_impl.h	/^    void *cv_g_data;      \/* pointer to user data for g                      *\/$/;"	m	struct:CVodeMemRec
+cv_gamma	cvode/cvode_impl.h	/^    realtype cv_gamma;   \/* gamma = h * rl1              *\/$/;"	m	struct:CVodeMemRec
+cv_gammap	cvode/cvode_impl.h	/^    realtype cv_gammap;  \/* gamma at the last setup call *\/$/;"	m	struct:CVodeMemRec
+cv_gamrat	cvode/cvode_impl.h	/^    realtype cv_gamrat;  \/* gamma \/ gammap               *\/$/;"	m	struct:CVodeMemRec
+cv_gfun	cvode/cvode_impl.h	/^    CVRootFn cv_gfun;     \/* Function g for roots sought                     *\/$/;"	m	struct:CVodeMemRec
+cv_ghi	cvode/cvode_impl.h	/^    realtype *cv_ghi;     \/* saved array of g values at t = thi              *\/$/;"	m	struct:CVodeMemRec
+cv_glo	cvode/cvode_impl.h	/^    realtype *cv_glo;     \/* saved array of g values at t = tlo              *\/$/;"	m	struct:CVodeMemRec
+cv_grout	cvode/cvode_impl.h	/^    realtype *cv_grout;   \/* array of g values at t = trout                  *\/$/;"	m	struct:CVodeMemRec
+cv_h	cvode/cvode_impl.h	/^    realtype cv_h;      \/* current step size                      *\/$/;"	m	struct:CVodeMemRec
+cv_h0u	cvode/cvode_impl.h	/^    realtype cv_h0u;       \/* actual initial stepsize                             *\/$/;"	m	struct:CVodeMemRec
+cv_hin	cvode/cvode_impl.h	/^    realtype cv_hin;    \/* initial step size                      *\/$/;"	m	struct:CVodeMemRec
+cv_hmax_inv	cvode/cvode_impl.h	/^    realtype cv_hmax_inv; \/* |h| <= 1\/hmax_inv *\/$/;"	m	struct:CVodeMemRec
+cv_hmin	cvode/cvode_impl.h	/^    realtype cv_hmin;     \/* |h| >= hmin       *\/$/;"	m	struct:CVodeMemRec
+cv_hprime	cvode/cvode_impl.h	/^    realtype cv_hprime; \/* step size to be used on the next step  *\/ $/;"	m	struct:CVodeMemRec
+cv_hscale	cvode/cvode_impl.h	/^    realtype cv_hscale; \/* value of h used in zn                  *\/$/;"	m	struct:CVodeMemRec
+cv_hu	cvode/cvode_impl.h	/^    realtype cv_hu;        \/* last successful h value used                        *\/$/;"	m	struct:CVodeMemRec
+cv_indx_acor	cvode/cvode_impl.h	/^    int cv_indx_acor;      \/* index of the zn vector in which acor is saved       *\/$/;"	m	struct:CVodeMemRec
+cv_irfnd	cvode/cvode_impl.h	/^    int cv_irfnd;         \/* flag showing whether last step had a root       *\/$/;"	m	struct:CVodeMemRec
+cv_iroots	cvode/cvode_impl.h	/^    int *cv_iroots;       \/* int array for root information                  *\/$/;"	m	struct:CVodeMemRec
+cv_istop	cvode/cvode_impl.h	/^    booleantype cv_istop;$/;"	m	struct:CVodeMemRec
+cv_iter	cvode/cvode_impl.h	/^    int cv_iter;         \/* iter = CV_FUNCTIONAL or CV_NEWTON *\/$/;"	m	struct:CVodeMemRec
+cv_itol	cvode/cvode_impl.h	/^    int cv_itol;         \/* itol = CV_SS or CV_SV             *\/$/;"	m	struct:CVodeMemRec
+cv_jcur	cvode/cvode_impl.h	/^    booleantype cv_jcur;   \/* Is the Jacobian info used by linear solver current? *\/$/;"	m	struct:CVodeMemRec
+cv_l	cvode/cvode_impl.h	/^    realtype cv_l[L_MAX];        \/* coefficients of l(x) (degree q poly)      *\/$/;"	m	struct:CVodeMemRec
+cv_lfree	cvode/cvode_impl.h	/^    void (*cv_lfree)(struct CVodeMemRec *cv_mem);$/;"	m	struct:CVodeMemRec
+cv_linit	cvode/cvode_impl.h	/^    int (*cv_linit)(struct CVodeMemRec *cv_mem);$/;"	m	struct:CVodeMemRec
+cv_liw	cvode/cvode_impl.h	/^    long int cv_liw;         \/* no. of integer words in CVODE work vectors  *\/$/;"	m	struct:CVodeMemRec
+cv_liw1	cvode/cvode_impl.h	/^    long int cv_liw1;        \/* no. of integer words in 1 N_Vector          *\/ $/;"	m	struct:CVodeMemRec
+cv_lmem	cvode/cvode_impl.h	/^    void *cv_lmem;           $/;"	m	struct:CVodeMemRec
+cv_lmm	cvode/cvode_impl.h	/^    int cv_lmm;          \/* lmm = CV_ADAMS or CV_BDF          *\/$/;"	m	struct:CVodeMemRec
+cv_lrw	cvode/cvode_impl.h	/^    long int cv_lrw;         \/* no. of realtype words in CVODE work vectors *\/$/;"	m	struct:CVodeMemRec
+cv_lrw1	cvode/cvode_impl.h	/^    long int cv_lrw1;        \/* no. of realtype words in 1 N_Vector         *\/ $/;"	m	struct:CVodeMemRec
+cv_lsetup	cvode/cvode_impl.h	/^    int (*cv_lsetup)(struct CVodeMemRec *cv_mem, int convfail, N_Vector ypred,$/;"	m	struct:CVodeMemRec
+cv_lsolve	cvode/cvode_impl.h	/^    int (*cv_lsolve)(struct CVodeMemRec *cv_mem, N_Vector b, N_Vector weight,$/;"	m	struct:CVodeMemRec
+cv_maxcor	cvode/cvode_impl.h	/^    int cv_maxcor;      \/* maximum number of corrector iterations for the     *\/$/;"	m	struct:CVodeMemRec
+cv_maxncf	cvode/cvode_impl.h	/^    int cv_maxncf;      \/* maximum number of nonlinear convergence failures   *\/$/;"	m	struct:CVodeMemRec
+cv_maxnef	cvode/cvode_impl.h	/^    int cv_maxnef;      \/* maximum number of error test failures              *\/$/;"	m	struct:CVodeMemRec
+cv_mnewt	cvode/cvode_impl.h	/^    int  cv_mnewt;       \/* Newton iteration counter                 *\/$/;"	m	struct:CVodeMemRec
+cv_mxhnil	cvode/cvode_impl.h	/^    int cv_mxhnil;      \/* maximum number of warning messages issued to the   *\/$/;"	m	struct:CVodeMemRec
+cv_mxstep	cvode/cvode_impl.h	/^    long int cv_mxstep; \/* maximum number of internal steps for one user call *\/$/;"	m	struct:CVodeMemRec
+cv_ncfn	cvode/cvode_impl.h	/^    long int cv_ncfn;             \/* number of corrector convergence failures   *\/$/;"	m	struct:CVodeMemRec
+cv_netf	cvode/cvode_impl.h	/^    long int cv_netf;             \/* number of error test failures              *\/$/;"	m	struct:CVodeMemRec
+cv_next_h	cvode/cvode_impl.h	/^    realtype cv_next_h; \/* step size to be used on the next step  *\/ $/;"	m	struct:CVodeMemRec
+cv_next_q	cvode/cvode_impl.h	/^    int cv_next_q;    \/* order to be used on the next step       *\/$/;"	m	struct:CVodeMemRec
+cv_nfe	cvode/cvode_impl.h	/^    long int cv_nfe;              \/* number of f calls                          *\/$/;"	m	struct:CVodeMemRec
+cv_nge	cvode/cvode_impl.h	/^    long int cv_nge;      \/* counter for g evaluations                       *\/$/;"	m	struct:CVodeMemRec
+cv_nhnil	cvode/cvode_impl.h	/^    int cv_nhnil;                 \/* number of messages issued to the user that *\/$/;"	m	struct:CVodeMemRec
+cv_nlscoef	cvode/cvode_impl.h	/^    realtype cv_nlscoef; \/* coeficient in nonlinear convergence test *\/$/;"	m	struct:CVodeMemRec
+cv_nni	cvode/cvode_impl.h	/^    long int cv_nni;              \/* number of Newton iterations performed      *\/$/;"	m	struct:CVodeMemRec
+cv_nor	cvode/cvode_impl.h	/^    long int cv_nor;            \/* counter for number of order reductions   *\/$/;"	m	struct:CVodeMemRec
+cv_nrtfn	cvode/cvode_impl.h	/^    int cv_nrtfn;         \/* number of components of g                       *\/$/;"	m	struct:CVodeMemRec
+cv_nscon	cvode/cvode_impl.h	/^    int cv_nscon;               \/* counter for STALD method                 *\/$/;"	m	struct:CVodeMemRec
+cv_nsetups	cvode/cvode_impl.h	/^    long int cv_nsetups;          \/* number of setup calls                      *\/$/;"	m	struct:CVodeMemRec
+cv_nst	cvode/cvode_impl.h	/^    long int cv_nst;              \/* number of internal steps taken             *\/$/;"	m	struct:CVodeMemRec
+cv_nstlp	cvode/cvode_impl.h	/^    long int cv_nstlp;     \/* step number of last setup call                      *\/$/;"	m	struct:CVodeMemRec
+cv_q	cvode/cvode_impl.h	/^    int cv_q;         \/* current order                           *\/$/;"	m	struct:CVodeMemRec
+cv_qmax	cvode/cvode_impl.h	/^    int cv_qmax;        \/* q <= qmax                                          *\/$/;"	m	struct:CVodeMemRec
+cv_qmax_alloc	cvode/cvode_impl.h	/^    int cv_qmax_alloc;     \/* value of qmax used when allocating memory           *\/$/;"	m	struct:CVodeMemRec
+cv_qprime	cvode/cvode_impl.h	/^    int cv_qprime;    \/* order to be used on the next step       *\/ $/;"	m	struct:CVodeMemRec
+cv_qu	cvode/cvode_impl.h	/^    int cv_qu;             \/* last successful q value used                        *\/$/;"	m	struct:CVodeMemRec
+cv_qwait	cvode/cvode_impl.h	/^    int cv_qwait;     \/* number of internal steps to wait before *\/$/;"	m	struct:CVodeMemRec
+cv_reltol	cvode/cvode_impl.h	/^    realtype cv_reltol;  \/* relative tolerance                *\/$/;"	m	struct:CVodeMemRec
+cv_rl1	cvode/cvode_impl.h	/^    realtype cv_rl1;     \/* the scalar 1\/l[1]            *\/$/;"	m	struct:CVodeMemRec
+cv_saved_tq5	cvode/cvode_impl.h	/^    realtype cv_saved_tq5; \/* saved value of tq[5]                                *\/$/;"	m	struct:CVodeMemRec
+cv_setupNonNull	cvode/cvode_impl.h	/^    booleantype cv_setupNonNull; \/* Does setup do something?                      *\/$/;"	m	struct:CVodeMemRec
+cv_sldeton	cvode/cvode_impl.h	/^    booleantype cv_sldeton;     \/* Is Stability Limit Detection on?         *\/$/;"	m	struct:CVodeMemRec
+cv_ssdat	cvode/cvode_impl.h	/^    realtype cv_ssdat[6][4];    \/* scaled data array for STALD              *\/$/;"	m	struct:CVodeMemRec
+cv_taskc	cvode/cvode_impl.h	/^    int cv_taskc;         \/* copy of parameter task                          *\/$/;"	m	struct:CVodeMemRec
+cv_tau	cvode/cvode_impl.h	/^    realtype cv_tau[L_MAX+1];    \/* array of previous q+1 successful step     *\/$/;"	m	struct:CVodeMemRec
+cv_tempv	cvode/cvode_impl.h	/^    N_Vector cv_tempv;   \/* temporary storage vector                     *\/$/;"	m	struct:CVodeMemRec
+cv_thi	cvode/cvode_impl.h	/^    realtype cv_thi;      \/* farthest endpoint of interval in root search    *\/$/;"	m	struct:CVodeMemRec
+cv_tlo	cvode/cvode_impl.h	/^    realtype cv_tlo;      \/* nearest endpoint of interval in root search     *\/$/;"	m	struct:CVodeMemRec
+cv_tn	cvode/cvode_impl.h	/^    realtype cv_tn;     \/* current internal value of t            *\/$/;"	m	struct:CVodeMemRec
+cv_tolsf	cvode/cvode_impl.h	/^    realtype cv_tolsf;     \/* tolerance scale factor                              *\/$/;"	m	struct:CVodeMemRec
+cv_toutc	cvode/cvode_impl.h	/^    realtype cv_toutc;    \/* copy of tout (if NORMAL mode)                   *\/$/;"	m	struct:CVodeMemRec
+cv_tq	cvode/cvode_impl.h	/^    realtype cv_tq[NUM_TESTS+1]; \/* array of test quantities indexed from     *\/$/;"	m	struct:CVodeMemRec
+cv_tretlast	cvode/cvode_impl.h	/^    realtype cv_tretlast; \/* value of tret last returned by CVode *\/$/;"	m	struct:CVodeMemRec
+cv_trout	cvode/cvode_impl.h	/^    realtype cv_trout;    \/* t value returned by rootfinding routine         *\/$/;"	m	struct:CVodeMemRec
+cv_tstop	cvode/cvode_impl.h	/^    realtype cv_tstop;$/;"	m	struct:CVodeMemRec
+cv_tstopset	cvode/cvode_impl.h	/^    booleantype cv_tstopset;$/;"	m	struct:CVodeMemRec
+cv_ttol	cvode/cvode_impl.h	/^    realtype cv_ttol;     \/* tolerance on root location                      *\/$/;"	m	struct:CVodeMemRec
+cv_uround	cvode/cvode_impl.h	/^    realtype cv_uround;    \/* machine unit roundoff *\/$/;"	m	struct:CVodeMemRec
+cv_y	cvode/cvode_impl.h	/^    N_Vector cv_y;       \/* y is used as temporary storage by the solver *\/$/;"	m	struct:CVodeMemRec
+cv_zn	cvode/cvode_impl.h	/^    N_Vector cv_zn[L_MAX];  \/* Nordsieck array, of size N x (q+1).         *\/$/;"	m	struct:CVodeMemRec
+cvode	micromixer.h	/^        cvodeDriver    *cvode;         \/\/\/< pointer to cvode driver object for implicit ODE integration (stiff)$/;"	m	class:micromixer
+cvodeDriver	cvodeDriver.h	/^        cvodeDriver(){Ldestruct = false;}    \/\/ constructor$/;"	f	class:cvodeDriver
+cvodeDriver	cvodeDriver.h	/^class cvodeDriver {$/;"	c
+cvode_atol	odtparam.h	/^        double  cvode_atol;      \/\/\/<  absolute tolerace atol for cvode$/;"	m	class:odtparam
+cvode_mem	cvodeDriver.h	/^        void                *cvode_mem;      \/\/\/< CVode memory$/;"	m	class:cvodeDriver
+cvode_rtol	odtparam.h	/^        double  cvode_rtol;      \/\/\/<  relative tolerace rtol for cvode$/;"	m	class:odtparam
+cyclePeriodicLine	odtline.cc	/^double odtline::cyclePeriodicLine(const int icycle) {$/;"	f	class:odtline
+d	linevariables/lv.h	/^        vector<double>                d;                      \/\/\/< the data$/;"	m	class:lv
+dPdx	odtparam.h	/^        double  dPdx;            \/\/\/<  initial pressure gradient $/;"	m	class:odtparam
+dTimes	inputoutput.h	/^        YAML::Node               dTimes;         \/\/\/< yaml sub node$/;"	m	class:inputoutput
+d_J_data	cvode/cvode_dense_impl.h	/^  void *d_J_data;      \/* J_data is passed to jac                 *\/$/;"	m	struct:__anon1
+d_M	cvode/cvode_dense_impl.h	/^  DenseMat d_M;        \/* M = I - gamma J, gamma = h \/ l1         *\/$/;"	m	struct:__anon1
+d_jac	cvode/cvode_dense_impl.h	/^  CVDenseJacFn d_jac;  \/* jac = Jacobian routine to be called     *\/$/;"	m	struct:__anon1
+d_last_flag	cvode/cvode_dense_impl.h	/^  int d_last_flag;     \/* last error return flag                  *\/$/;"	m	struct:__anon1
+d_n	cvode/cvode_dense_impl.h	/^  long int d_n;        \/* problem dimension                       *\/$/;"	m	struct:__anon1
+d_nfeD	cvode/cvode_dense_impl.h	/^  long int d_nfeD;     \/* nfeD = no. of calls to f due to$/;"	m	struct:__anon1
+d_nje	cvode/cvode_dense_impl.h	/^  long int d_nje;      \/* nje = no. of calls to jac               *\/$/;"	m	struct:__anon1
+d_nstlj	cvode/cvode_dense_impl.h	/^  long int  d_nstlj;   \/* nstlj = nst at last Jacobian eval.      *\/$/;"	m	struct:__anon1
+d_pivots	cvode/cvode_dense_impl.h	/^  long int *d_pivots;  \/* pivots = pivot array for PM = LU        *\/$/;"	m	struct:__anon1
+d_savedJ	cvode/cvode_dense_impl.h	/^  DenseMat d_savedJ;   \/* savedJ = old Jacobian                   *\/$/;"	m	struct:__anon1
+data	cvode/nvector_serial.h	/^  realtype *data;$/;"	m	struct:_N_VectorContent_Serial
+data	cvode/sundials_dense.h	/^    realtype **data;$/;"	m	struct:_DenseMat
+dataDir	inputoutput.h	/^        string                   dataDir;        \/\/\/< data directory (output)$/;"	m	class:inputoutput
+denGETRF	cvode/sundials_smalldense.c	/^long int denGETRF(realtype **a, long int m, long int n, long int *p)$/;"	f
+denGETRS	cvode/sundials_smalldense.c	/^void denGETRS(realtype **a, long int n, long int *p, realtype *b)$/;"	f
+denaddI	cvode/sundials_smalldense.c	/^void denaddI(realtype **a, long int n)$/;"	f
+denalloc	cvode/sundials_smalldense.c	/^realtype **denalloc(long int m, long int n)$/;"	f
+denallocpiv	cvode/sundials_smalldense.c	/^long int *denallocpiv(long int n)$/;"	f
+dencopy	cvode/sundials_smalldense.c	/^void dencopy(realtype **a, realtype **b, long int m, long int n)$/;"	f
+denfree	cvode/sundials_smalldense.c	/^void denfree(realtype **a)$/;"	f
+denfreepiv	cvode/sundials_smalldense.c	/^void denfreepiv(long int *p)$/;"	f
+denprint	cvode/sundials_smalldense.c	/^void denprint(realtype **a, long int m, long int n)$/;"	f
+denscale	cvode/sundials_smalldense.c	/^void denscale(realtype c, realtype **a, long int m, long int n)$/;"	f
+denzero	cvode/sundials_smalldense.c	/^void denzero(realtype **a, long int m, long int n)$/;"	f
+diffCFL	odtparam.h	/^        double  diffCFL;         \/\/\/<  multiplies min diffusion timestep$/;"	m	class:odtparam
+diffusionCatchUpIfNeeded	solver.cc	/^void solver::diffusionCatchUpIfNeeded(int &iStart, int &iEnd, bool Ldoit) {$/;"	f	class:solver
+domainLength	odtparam.h	/^        double  domainLength;    \/\/\/<  length of domain$/;"	m	class:odtparam
+dt	micromixer.h	/^        double         dt;             \/\/\/< actual step size (shortened based on output or tend)$/;"	m	class:micromixer
+dtCUmax	solver.h	/^        double         dtCUmax;        \/\/\/< max time before catch up diff\/eddy$/;"	m	class:solver
+dtSmean	solver.h	/^        double         dtSmean;        \/\/\/< initial mean eddy sample time$/;"	m	class:solver
+dtStepNominal	micromixer.h	/^        double         dtStepNominal;  \/\/\/< nominal step size$/;"	m	class:micromixer
+dtfac	odtparam.h	/^        double  dtfac;           \/\/\/<  maximum factor to increase dtSmean $/;"	m	class:odtparam
+dumpLineIfNeeded	inputoutput.cc	/^void inputoutput::dumpLineIfNeeded(){$/;"	f	class:inputoutput
+dumpTimes	inputoutput.h	/^        vector<double>           dumpTimes;      \/\/\/< vector of dump times$/;"	m	class:inputoutput
+dx	meshManager.h	/^        vector<double>           dx;        \/\/\/< vector of cell sizes$/;"	m	class:meshManager
+dx	micromixer.h	/^        vector<double> dx;             \/\/\/< abs(\\Delta(x))$/;"	m	class:micromixer
+dxc	eddy.h	/^        vector<double>      dxc;                \/\/\/< \\delta(x^cCoord) is prop. to cell "volume"$/;"	m	class:eddy
+dxc	micromixer.h	/^        vector<double> dxc;            \/\/\/< abs(\\Delta(x^c))$/;"	m	class:micromixer
+dxmax	odtparam.h	/^        double  dxmax;           \/\/\/<  max grid spacing = dxmax \/ domain length$/;"	m	class:odtparam
+dxmin	odtparam.h	/^        double  dxmin;           \/\/\/<  min grid spacing: = dxmin \/ domain length$/;"	m	class:odtparam
+eSurfTens	odtparam.h	/^        double  eSurfTens;       \/\/\/<  surface tension, J\/m2 for liquid phases$/;"	m	class:odtparam
+e_data	cvode/cvode.c	/^#define e_data /;"	d	file:
+e_data	cvode/cvode_io.c	/^#define e_data /;"	d	file:
+ed	odtline.h	/^        eddy                    *ed;         \/\/\/< pointer to object for eddy operations$/;"	m	class:odtline
+ed3	solver.h	/^        eddy           *ed3;           \/\/\/< pointer to eddy object for thirds$/;"	m	class:solver
+eddl	eddy.h	/^        odtline             *eddl;              \/\/\/< pointer to eddy line object$/;"	m	class:eddy
+eddl	odtline.h	/^        odtline                 *eddl;       \/\/\/< pointer to eddyline object$/;"	m	class:odtline
+eddl3	solver.h	/^        odtline        *eddl3;         \/\/\/< pointer to eddy line object$/;"	m	class:solver
+eddy	eddy.h	/^        eddy(){}$/;"	f	class:eddy
+eddy	eddy.h	/^class eddy {$/;"	c
+eddyFavreAvgVelocity	eddy.cc	/^double eddy::eddyFavreAvgVelocity(const vector<double> &dxc) {$/;"	f	class:eddy
+eddyMinCells	odtparam.h	/^        int     eddyMinCells;    \/\/\/<  eddy must overlap at least this many cells$/;"	m	class:odtparam
+eddySize	eddy.h	/^        double              eddySize;           \/\/\/< size of eddy$/;"	m	class:eddy
+eddyTau	eddy.cc	/^bool eddy::eddyTau(const double Z_value) {$/;"	f	class:eddy
+efun	cvode/cvode.c	/^#define efun /;"	d	file:
+efun	cvode/cvode_io.c	/^#define efun /;"	d	file:
+eh_data	cvode/cvode.c	/^#define eh_data /;"	d	file:
+ehfun	cvode/cvode.c	/^#define ehfun /;"	d	file:
+enforceDomainSize	meshManager.cc	/^void meshManager::enforceDomainSize() {$/;"	f	class:meshManager
+enforceMassFractions	odtcases/odtcase.h	/^        virtual void enforceMassFractions(){}$/;"	f	class:odtcase
+enforceMassFractions	odtcases/odtcase_jetMixlRxn.cc	/^void odtcase_jetMixlRxn::enforceMassFractions() {$/;"	f	class:odtcase_jetMixlRxn
+enth	odtline.h	/^        lv*                     enth;$/;"	m	class:odtline
+errMsg	odtparam.h	/^        T errMsg(const string param) {$/;"	f	class:odtparam
+errfp	cvode/cvode.c	/^#define errfp /;"	d	file:
+esdp1	eddy.h	/^        double              esdp1;              \/\/\/< eddy size distribution parameters.$/;"	m	class:eddy
+esdp2	eddy.h	/^        double              esdp2;$/;"	m	class:eddy
+esdp3	eddy.h	/^        double              esdp3;$/;"	m	class:eddy
+esdp4	eddy.h	/^        double              esdp4;$/;"	m	class:eddy
+eta	cvode/cvode.c	/^#define eta /;"	d	file:
+eta	odtline.h	/^        vector<lv*>::iterator   eta;       \/\/\/< iterator for increment to go through species etc. (*(ysp+k))->d[i];)$/;"	m	class:odtline
+etamax	cvode/cvode.c	/^#define etamax /;"	d	file:
+etaq	cvode/cvode.c	/^#define etaq /;"	d	file:
+etaqm1	cvode/cvode.c	/^#define etaqm1 /;"	d	file:
+etaqp1	cvode/cvode.c	/^#define etaqp1 /;"	d	file:
+ewt	cvode/cvode.c	/^#define ewt /;"	d	file:
+ewt	cvode/cvode_dense.c	/^#define ewt /;"	d	file:
+ewt	cvode/cvode_io.c	/^#define ewt /;"	d	file:
+f	cvode/cvode.c	/^#defi/;"	d	file:
+f	cvode/cvode_dense.c	/^#defi/;"	d	file:
+f_data	cvode/cvode.c	/^#define f_data /;"	d	file:
+f_data	cvode/cvode_dense.c	/^#define f_data /;"	d	file:
+fillKernel	eddy.cc	/^void eddy::fillKernel() {$/;"	f	class:eddy
+findPos	meshManager.cc	/^int meshManager::findPos(const vector<double> &x, const double val, const int &istart) {$/;"	f	class:meshManager
+fix2point5offender	meshManager.cc	/^void meshManager::fix2point5offender(const int mPos, const int &iglobal) {$/;"	f	class:meshManager
+flux	linevariables/lv.h	/^        vector<double>                flux;         $/;"	m	class:lv
+ftemp	cvode/cvode.c	/^#define ftemp /;"	d	file:
+gDens	odtparam.h	/^        double  gDens;           \/\/\/<  grid density for mesher$/;"	m	class:odtparam
+g_data	cvode/cvode.c	/^#define g_data /;"	d	file:
+gamma	cvode/cvode.c	/^#define gamma /;"	d	file:
+gamma	cvode/cvode_dense.c	/^#define gamma /;"	d	file:
+gammap	cvode/cvode.c	/^#define gammap /;"	d	file:
+gammap	cvode/cvode_dense.c	/^#define gammap /;"	d	file:
+gamrat	cvode/cvode.c	/^#define gamrat /;"	d	file:
+gamrat	cvode/cvode_dense.c	/^#define gamrat /;"	d	file:
+gas	odtline.h	/^        IdealGasMix             *gas;        \/\/\/< pointer to cantera thermochemistry object (reaction rates, Cp, etc.)$/;"	m	class:odtline
+getElementMoles	streams.cc	/^vector<double> streams::getElementMoles(const double *x, $/;"	f	class:streams
+getGasAbsorptionCoefficient	radiation.cc	/^double radiation::getGasAbsorptionCoefficient(const vector<double> &xMole, $/;"	f	class:radiation
+getMixingState	streams.cc	/^void streams::getMixingState(const double mixf, vector<double> &ymix, $/;"	f	class:streams
+getMixtureFraction	streams.cc	/^double streams::getMixtureFraction(const double *y, const bool doBeta01) {$/;"	f	class:streams
+getProblemSpecificRR	user_chemical_mechanisms/c2h4RedRR.cc	/^void getProblemSpecificRR(double rho, double temp, double pres, $/;"	f
+getProblemSpecificRR	user_chemical_mechanisms/oneStepRR.cc	/^void getProblemSpecificRR(double rho, double temp, double pres, double *yi, double *rrsp) {$/;"	f
+getProdOfCompleteComb	streams.cc	/^void streams::getProdOfCompleteComb(const double mixf, vector<double> &ypcc, $/;"	f	class:streams
+getRadHeatSource	radiation.cc	/^void radiation::getRadHeatSource(const vector<vector<double> > &xMoleSp, $/;"	f	class:radiation
+getRand	randomGenerator.h	/^    inline double getRand() {$/;"	f	class:randomGenerator
+getRhsMix	linevariables/lv.h	/^        virtual void   getRhsMix(const vector<double> &gf,$/;"	f	class:lv
+getRhsMix	linevariables/lv_enth.cc	/^void lv_enth::getRhsMix(const vector<double> &gf, $/;"	f	class:lv_enth
+getRhsMix	linevariables/lv_uvw.cc	/^void lv_uvw::getRhsMix(const vector<double> &gf, $/;"	f	class:lv_uvw
+getRhsMix	linevariables/lv_ygas.cc	/^void lv_ygas::getRhsMix(const vector<double> &gf, $/;"	f	class:lv_ygas
+getRhsSrc	linevariables/lv.h	/^        virtual void   getRhsSrc(const int ipt=-1){if(!L_transported) return;}$/;"	f	class:lv
+getRhsSrc	linevariables/lv_enth.cc	/^void lv_enth::getRhsSrc(const int ipt){$/;"	f	class:lv_enth
+getRhsSrc	linevariables/lv_uvw.cc	/^void lv_uvw::getRhsSrc(const int ipt){$/;"	f	class:lv_uvw
+getRhsSrc	linevariables/lv_ygas.cc	/^void lv_ygas::getRhsSrc(const int ipt) {$/;"	f	class:lv_ygas
+getRhsSrc	linevariables/lv_ygas_Rsoot.cc	/^void lv_ygas_Rsoot::getRhsSrc(const int ipt){$/;"	f	class:lv_ygas_Rsoot
+gf	micromixer.h	/^        vector<double> gf;             \/\/\/< grid factor for derivatives: (df\/dx) = gf * (f - f)$/;"	m	class:micromixer
+gfun	cvode/cvode.c	/^#define gfun /;"	d	file:
+ghi	cvode/cvode.c	/^#define ghi /;"	d	file:
+glo	cvode/cvode.c	/^#define glo /;"	d	file:
+gnufile	inputoutput.h	/^        ofstream                 gnufile;        \/\/\/< gnuplot script file$/;"	m	class:inputoutput
+grout	cvode/cvode.c	/^#define grout /;"	d	file:
+h	cvode/cvode.c	/^#define h /;"	d	file:
+h	cvode/cvode_dense.c	/^#define h /;"	d	file:
+h0	streams.h	/^        double         h0;              \/\/\/< stream mixf=0 enthalpy$/;"	m	class:streams
+h0u	cvode/cvode.c	/^#define h0u /;"	d	file:
+h0u	cvode/cvode_io.c	/^#define h0u /;"	d	file:
+h1	streams.h	/^        double         h1;              \/\/\/< stream mixf=1 enthalpy$/;"	m	class:streams
+hWallBCtype	odtparam.h	/^        string  hWallBCtype;     \/\/\/<  ADIABATIC or ISOTHERMAL$/;"	m	class:odtparam
+hash	MersenneTwister.h	/^inline MTRand::uint32 MTRand::hash( time_t t, clock_t c )$/;"	f	class:MTRand
+hiBit	MersenneTwister.h	/^	uint32 hiBit( const uint32& u ) const { return u & 0x80000000UL; }$/;"	f	class:MTRand
+hin	cvode/cvode.c	/^#define hin /;"	d	file:
+hmax_inv	cvode/cvode.c	/^#define hmax_inv /;"	d	file:
+hmin	cvode/cvode.c	/^#define hmin /;"	d	file:
+hprime	cvode/cvode.c	/^#define hprime /;"	d	file:
+hr	odtline.h	/^        lv*                     hr;$/;"	m	class:odtline
+hscale	cvode/cvode.c	/^#define hscale /;"	d	file:
+hu	cvode/cvode.c	/^#define hu /;"	d	file:
+hu	cvode/cvode_io.c	/^#define hu /;"	d	file:
+iC	cvodeDriver.h	/^        int                 iC;              \/\/\/< which cell are we integrating$/;"	m	class:cvodeDriver
+iEtrials	solver.h	/^        int            iEtrials;       \/\/\/< number of eddy trials$/;"	m	class:solver
+iLower	meshManager.h	/^        int                      iLower;    \/\/\/< region of grid to adapt (the cell w\/ left eddy edge)$/;"	m	class:meshManager
+iMe	linevariables/lv_enth.h	/^        int iMe;$/;"	m	class:lv_enth
+iNextDumpTime	inputoutput.h	/^        int                      iNextDumpTime;  \/\/\/< index of next dump time$/;"	m	class:inputoutput
+iRadIndx	radiation.h	/^        vector<int>                  iRadIndx;    \/\/\/< radiation species indicies: ch4 co2 h2o co: negative if not present$/;"	m	class:radiation
+iUpper	meshManager.h	/^        int                      iUpper;    \/\/\/< region of grid to adapt (the cell w\/ right eddy edge)$/;"	m	class:meshManager
+ierr	processor.h	/^        int ierr;            \/\/\/< Error flag$/;"	m	class:processor
+impose2point5rule	meshManager.cc	/^void meshManager::impose2point5rule(){$/;"	f	class:meshManager
+indx_acor	cvode/cvode.c	/^#define indx_acor /;"	d	file:
+init	cvodeDriver.cc	/^void cvodeDriver::init(odtline *p_odtl) {$/;"	f	class:cvodeDriver
+init	eddy.cc	/^void eddy::init(odtline *p_odtl, odtline *p_eddl) {$/;"	f	class:eddy
+init	inputoutput.cc	/^void inputoutput::init(odtline *p_odtl) {$/;"	f	class:inputoutput
+init	meshManager.cc	/^void meshManager::init(odtline *p_odtl, const vector<lv*> p_phi) {$/;"	f	class:meshManager
+init	micromixer.cc	/^void micromixer::init(odtline *p_odtl) {$/;"	f	class:micromixer
+init	odtcases/odtcase.h	/^        virtual void init(odtline *p_odtl) { odtl = p_odtl; }$/;"	f	class:odtcase
+init	odtcases/odtcase_channel.cc	/^void odtcase_channel::init(odtline *p_odtl){$/;"	f	class:odtcase_channel
+init	odtcases/odtcase_jetMixlRxn.cc	/^void odtcase_jetMixlRxn::init(odtline *p_odtl) {$/;"	f	class:odtcase_jetMixlRxn
+init	odtline.cc	/^void odtline::init(inputoutput *p_io, $/;"	f	class:odtline
+init	odtparam.cc	/^void odtparam::init(odtline *p_odtl) {$/;"	f	class:odtparam
+init	radiation.cc	/^void radiation::init(odtline *p_odtl) {$/;"	f	class:radiation
+init	solver.cc	/^void solver::init(odtline *p_odtl) {$/;"	f	class:solver
+init	streams.cc	/^void streams::init(odtline *p_odtl) {$/;"	f	class:streams
+initEddyLine	odtline.cc	/^void odtline::initEddyLine() {$/;"	f	class:odtline
+initParams	inputoutput.h	/^        YAML::Node               initParams;     \/\/\/< yaml sub node$/;"	m	class:inputoutput
+initialize	MersenneTwister.h	/^inline void MTRand::initialize( const uint32 seed )$/;"	f	class:MTRand
+inputFile	inputoutput.h	/^        YAML::Node               inputFile;      \/\/\/< yaml input file object base node$/;"	m	class:inputoutput
+inputFileDir	inputoutput.h	/^        string                   inputFileDir;   \/\/\/< input file directory$/;"	m	class:inputoutput
+inputoutput	inputoutput.cc	/^inputoutput::inputoutput(const string p_inputFileDir){$/;"	f	class:inputoutput
+inputoutput	inputoutput.h	/^class inputoutput {$/;"	c
+integrateCell	cvodeDriver.cc	/^void cvodeDriver::integrateCell(int p_iC, double tres) {$/;"	f	class:cvodeDriver
+interp1pt	meshManager.cc	/^void meshManager::interp1pt(const vector<double> &x, const vector<double> &y, $/;"	f	class:meshManager
+interpVarToFacesHarmonic	linevariables/lv.cc	/^void lv::interpVarToFacesHarmonic(const vector<double> &cvar, vector<double> &fvar){$/;"	f	class:lv
+interpVec	meshManager.cc	/^void meshManager::interpVec(const vector<double> &x, const vector<double> &y,$/;"	f	class:meshManager
+invTauEddy	eddy.h	/^        double              invTauEddy;         \/\/\/< inverse eddy timescale $/;"	m	class:eddy
+io	odtline.h	/^        inputoutput             *io;         \/\/\/< pointer to input\/output object$/;"	m	class:odtline
+io	odtparam.h	/^        inputoutput *io;         \/\/\/< pointer to io object (has the input file)$/;"	m	class:odtparam
+irfnd	cvode/cvode.c	/^#define irfnd /;"	d	file:
+iroots	cvode/cvode.c	/^#define iroots /;"	d	file:
+iroots	cvode/cvode_io.c	/^#define iroots /;"	d	file:
+istop	cvode/cvode.c	/^#define istop /;"	d	file:
+iter	cvode/cvode.c	/^#define iter /;"	d	file:
+itol	cvode/cvode.c	/^#define itol /;"	d	file:
+jac	cvode/cvode_dense.c	/^#define jac /;"	d	file:
+jcur	cvode/cvode.c	/^#define jcur /;"	d	file:
+kMe	linevariables/lv_ygas.h	/^        int                            kMe;         \/\/\/< index of this spc in list: 0 to nspc-1; set from var_name$/;"	m	class:lv_ygas
+dvisc	odtline.h	/^        lv*                     dvisc;$/;"	m	class:odtline
+kvisc0	odtparam.h	/^        double  kvisc0;          \/\/\/<  initial uniform viscosity$/;"	m	class:odtparam
+l	cvode/cvode.c	/^#define l /;"	d	file:
+lastDA	meshManager.h	/^        vector<double>           lastDA;    \/\/\/< constant (unif) mesh to list time of last adapt$/;"	m	class:meshManager
+last_flag	cvode/cvode_dense.c	/^#define last_flag /;"	d	file:
+left	MersenneTwister.h	/^	int left;          \/\/ number of values left before reload needed$/;"	m	class:MTRand
+leftEdge	eddy.h	/^        double              leftEdge;           \/\/\/< left edge location of eddy$/;"	m	class:eddy
+length	cvode/nvector_serial.h	/^  long int length;$/;"	m	struct:_N_VectorContent_Serial
+lfree	cvode/cvode.c	/^#define lfree /;"	d	file:
+lfree	cvode/cvode_dense.c	/^#define lfree /;"	d	file:
+linePositionToIndex	odtline.cc	/^int odtline::linePositionToIndex(double position, const bool LowSide) {$/;"	f	class:odtline
+linearInterpToFace	linevariables/lv.cc	/^double lv::linearInterpToFace(const int &iface, const vector<double> &vec) {$/;"	f	class:lv
+linit	cvode/cvode.c	/^#define linit /;"	d	file:
+linit	cvode/cvode_dense.c	/^#define linit /;"	d	file:
+liw	cvode/cvode.c	/^#define liw /;"	d	file:
+liw	cvode/cvode_io.c	/^#define liw /;"	d	file:
+liw1	cvode/cvode.c	/^#define liw1 /;"	d	file:
+liw1	cvode/cvode_io.c	/^#define liw1 /;"	d	file:
+lmem	cvode/cvode.c	/^#define lmem /;"	d	file:
+lmem	cvode/cvode_dense.c	/^#define lmem /;"	d	file:
+lmm	cvode/cvode.c	/^#define lmm /;"	d	file:
+lmm	cvode/cvode_dense.c	/^#define lmm /;"	d	file:
+loBit	MersenneTwister.h	/^	uint32 loBit( const uint32& u ) const { return u & 0x00000001UL; }$/;"	f	class:MTRand
+loBits	MersenneTwister.h	/^	uint32 loBits( const uint32& u ) const { return u & 0x7fffffffUL; }$/;"	f	class:MTRand
+load	MersenneTwister.h	/^inline void MTRand::load( uint32 *const loadArray )$/;"	f	class:MTRand
+loadVarsFromRestartFile	inputoutput.cc	/^void inputoutput::loadVarsFromRestartFile() {$/;"	f	class:inputoutput
+loop	cvode/cvode.c	/^#define loop /;"	d	file:
+lowerDtSmean	solver.cc	/^void solver::lowerDtSmean() {$/;"	f	class:solver
+lrw	cvode/cvode.c	/^#define lrw /;"	d	file:
+lrw	cvode/cvode_io.c	/^#define lrw /;"	d	file:
+lrw1	cvode/cvode.c	/^#define lrw1 /;"	d	file:
+lrw1	cvode/cvode_io.c	/^#define lrw1 /;"	d	file:
+lsetup	cvode/cvode.c	/^#define lsetup /;"	d	file:
+lsetup	cvode/cvode_dense.c	/^#define lsetup /;"	d	file:
+lsolve	cvode/cvode.c	/^#define lsolve /;"	d	file:
+lsolve	cvode/cvode_dense.c	/^#define lsolve /;"	d	file:
+lv	linevariables/lv.cc	/^lv::lv(odtline    *line,$/;"	f	class:lv
+lv	linevariables/lv.h	/^        lv(){}$/;"	f	class:lv
+lv	linevariables/lv.h	/^class lv {$/;"	c
+lv_chi	linevariables/lv_chi.cc	/^lv_chi::lv_chi(odtline  *line,$/;"	f	class:lv_chi
+lv_chi	linevariables/lv_chi.h	/^        lv_chi(){}$/;"	f	class:lv_chi
+lv_chi	linevariables/lv_chi.h	/^class lv_chi : public lv {$/;"	c
+lv_enth	linevariables/lv_enth.cc	/^lv_enth::lv_enth(odtline    *line,$/;"	f	class:lv_enth
+lv_enth	linevariables/lv_enth.h	/^        lv_enth(){}$/;"	f	class:lv_enth
+lv_enth	linevariables/lv_enth.h	/^class lv_enth : public lv {$/;"	c
+lv_hr	linevariables/lv_hr.cc	/^lv_hr::lv_hr(odtline  *line,$/;"	f	class:lv_hr
+lv_hr	linevariables/lv_hr.h	/^        lv_hr(){}$/;"	f	class:lv_hr
+lv_hr	linevariables/lv_hr.h	/^class lv_hr : public lv {$/;"	c
+lv_dvisc	linevariables/lv_dvisc.cc	/^lv_dvisc::lv_dvisc(odtline    *line,$/;"	f	class:lv_dvisc
+lv_dvisc	linevariables/lv_dvisc.h	/^        lv_dvisc(){}$/;"	f	class:lv_dvisc
+lv_dvisc	linevariables/lv_dvisc.h	/^class lv_dvisc : public lv {$/;"	c
+lv_dvisc_const	linevariables/lv_dvisc_const.cc	/^lv_dvisc_const::lv_dvisc_const(odtline    *line,$/;"	f	class:lv_dvisc_const
+lv_dvisc_const	linevariables/lv_dvisc_const.h	/^        lv_dvisc_const(){}$/;"	f	class:lv_dvisc_const
+lv_dvisc_const	linevariables/lv_dvisc_const.h	/^class lv_dvisc_const : public lv {$/;"	c
+lv_mixf	linevariables/lv_mixf.cc	/^lv_mixf::lv_mixf(odtline  *line,$/;"	f	class:lv_mixf
+lv_mixf	linevariables/lv_mixf.h	/^        lv_mixf(){}$/;"	f	class:lv_mixf
+lv_mixf	linevariables/lv_mixf.h	/^class lv_mixf : public lv {$/;"	c
+lv_pos	linevariables/lv_pos.cc	/^lv_pos::lv_pos(odtline    *line,$/;"	f	class:lv_pos
+lv_pos	linevariables/lv_pos.h	/^        lv_pos(){}$/;"	f	class:lv_pos
+lv_pos	linevariables/lv_pos.h	/^class lv_pos : public lv {$/;"	c
+lv_posf	linevariables/lv_posf.cc	/^lv_posf::lv_posf(odtline    *line,$/;"	f	class:lv_posf
+lv_posf	linevariables/lv_posf.h	/^        lv_posf(){}$/;"	f	class:lv_posf
+lv_posf	linevariables/lv_posf.h	/^class lv_posf : public lv {$/;"	c
+lv_rho	linevariables/lv_rho.cc	/^lv_rho::lv_rho(odtline    *line,$/;"	f	class:lv_rho
+lv_rho	linevariables/lv_rho.h	/^        lv_rho(){}$/;"	f	class:lv_rho
+lv_rho	linevariables/lv_rho.h	/^class lv_rho : public lv {$/;"	c
+lv_rho_const	linevariables/lv_rho_const.cc	/^lv_rho_const::lv_rho_const(odtline    *line,$/;"	f	class:lv_rho_const
+lv_rho_const	linevariables/lv_rho_const.h	/^        lv_rho_const(){}$/;"	f	class:lv_rho_const
+lv_rho_const	linevariables/lv_rho_const.h	/^class lv_rho_const : public lv {$/;"	c
+lv_temp	linevariables/lv_temp.cc	/^lv_temp::lv_temp(odtline  *line,$/;"	f	class:lv_temp
+lv_temp	linevariables/lv_temp.h	/^        lv_temp(){}$/;"	f	class:lv_temp
+lv_temp	linevariables/lv_temp.h	/^class lv_temp : public lv {$/;"	c
+lv_uvw	linevariables/lv_uvw.cc	/^lv_uvw::lv_uvw(odtline  *line,$/;"	f	class:lv_uvw
+lv_uvw	linevariables/lv_uvw.h	/^        lv_uvw(){}$/;"	f	class:lv_uvw
+lv_uvw	linevariables/lv_uvw.h	/^class lv_uvw : public lv {$/;"	c
+lv_ygas	linevariables/lv_ygas.cc	/^lv_ygas::lv_ygas(odtline  *line,$/;"	f	class:lv_ygas
+lv_ygas	linevariables/lv_ygas.h	/^        lv_ygas(){}$/;"	f	class:lv_ygas
+lv_ygas	linevariables/lv_ygas.h	/^class lv_ygas : public lv {$/;"	c
+lv_ygas_Rsoot	linevariables/lv_ygas_Rsoot.h	/^        lv_ygas_Rsoot(){}$/;"	f	class:lv_ygas_Rsoot
+lv_ygas_Rsoot	linevariables/lv_ygas_Rsoot.h	/^        lv_ygas_Rsoot(odtline     *line,$/;"	f	class:lv_ygas_Rsoot
+lv_ygas_Rsoot	linevariables/lv_ygas_Rsoot.h	/^class lv_ygas_Rsoot : public lv_ygas {$/;"	c
+main	main.cc	/^int main(int argc, char*argv[]) {$/;"	f
+mark	meshManager.h	/^        vector<int>              mark;      \/\/\/< dummy small cell index array for sorting$/;"	m	class:meshManager
+maxcor	cvode/cvode.c	/^#define maxcor /;"	d	file:
+maxncf	cvode/cvode.c	/^#define maxncf /;"	d	file:
+maxnef	cvode/cvode.c	/^#define maxnef /;"	d	file:
+merge2cells	linevariables/lv.cc	/^void lv::merge2cells(const int    imrg,$/;"	f	class:lv
+merge2cells	linevariables/lv_dvisc_const.cc	/^void lv_dvisc_const::merge2cells(const int    imrg,$/;"	f	class:lv_dvisc_const
+merge2cells	linevariables/lv_pos.cc	/^void lv_pos::merge2cells(const int    imrg,$/;"	f	class:lv_pos
+merge2cells	linevariables/lv_posf.cc	/^void lv_posf::merge2cells(const int    imrg,$/;"	f	class:lv_posf
+merge2cells	linevariables/lv_rho.cc	/^void lv_rho::merge2cells(const int    imrg,$/;"	f	class:lv_rho
+merge2cells	linevariables/lv_rho_const.cc	/^void lv_rho_const::merge2cells(const int    imrg,$/;"	f	class:lv_rho_const
+merge2cells	meshManager.cc	/^void meshManager::merge2cells(const int imrg, const bool LconstVolume) {$/;"	f	class:meshManager
+mergeSmallCells	meshManager.cc	/^void meshManager::mergeSmallCells() {$/;"	f	class:meshManager
+mergeSmallCellsMP	meshManager.cc	/^void meshManager::mergeSmallCellsMP() {$/;"	f	class:meshManager
+meshManager	meshManager.h	/^        meshManager(){};$/;"	f	class:meshManager
+meshManager	meshManager.h	/^class meshManager {$/;"	c
+mesher	odtline.h	/^        meshManager             *mesher;     \/\/\/< pointer to mesh manager object$/;"	m	class:odtline
+micromixer	micromixer.cc	/^micromixer::micromixer() {$/;"	f	class:micromixer
+micromixer	micromixer.h	/^class micromixer {$/;"	c
+mimx	odtline.h	/^        micromixer              *mimx;       \/\/\/< pointer to micromixer for diffusion, reaction, line evolution.$/;"	m	class:odtline
+mixBits	MersenneTwister.h	/^	uint32 mixBits( const uint32& u, const uint32& v ) const$/;"	f	class:MTRand
+mixf	odtline.h	/^        lv*                     mixf;$/;"	m	class:odtline
+mixfStoic	streams.h	/^        double         mixfStoic;       \/\/\/< stoichiometric mixture fraction$/;"	m	class:streams
+mnewt	cvode/cvode.c	/^#define mnewt /;"	d	file:
+modDisp	odtparam.h	/^        int     modDisp;         \/\/\/<  frequency to display results (# eddies)$/;"	m	class:odtparam
+modDump	odtparam.h	/^        int     modDump;         \/\/\/<  accepted eddies before output file$/;"	m	class:odtparam
+mom	odtline.h	/^        vector<lv*>::iterator   mom;       \/\/\/< iterator for increment to go through species etc. (*(ysp+k))->d[i];)$/;"	m	class:odtline
+mtwist	randomGenerator.h	/^    MTRand mtwist;                   \/\/\/< Mersenne twister object$/;"	m	class:randomGenerator
+mxhnil	cvode/cvode.c	/^#define mxhnil /;"	d	file:
+mxstep	cvode/cvode.c	/^#define mxstep /;"	d	file:
+myid	processor.h	/^        int myid;            \/\/\/< Process ID$/;"	m	class:processor
+n	cvode/cvode_dense.c	/^#define/;"	d	file:
+nDtSmeanWait	odtparam.h	/^        int     nDtSmeanWait;    \/\/\/<  number of eddy samples before increase dtSmean$/;"	m	class:odtparam
+nInst	processor.cc	/^int processor::nInst;$/;"	m	class:processor	file:
+nInst	processor.h	/^        static int nInst;    \/\/\/< number of these class objects (should be 1);$/;"	m	class:processor
+nPaSum	solver.h	/^        int            nPaSum;         \/\/\/< number going into PaSum$/;"	m	class:solver
+nPaSumC	solver.h	/^        int            nPaSumC;        \/\/\/< number going into PaSum$/;"	m	class:solver
+nRadSp	radiation.h	/^        double                       nRadSp;      \/\/\/< number of radiating species$/;"	m	class:radiation
+nTrans	odtline.h	/^        int                     nTrans;      \/\/\/< number of transported variables on the line.$/;"	m	class:odtline
+ncfn	cvode/cvode.c	/^#define ncfn /;"	d	file:
+ncfn	cvode/cvode_io.c	/^#define ncfn /;"	d	file:
+neddies	solver.h	/^        int            neddies;        \/\/\/< number of eddies accepted$/;"	m	class:solver
+neq	cvodeDriver.h	/^        int                 neq;             \/\/\/< number of eqns solved$/;"	m	class:cvodeDriver
+netf	cvode/cvode.c	/^#define netf /;"	d	file:
+netf	cvode/cvode_io.c	/^#define netf /;"	d	file:
+next_h	cvode/cvode.c	/^#define next_h /;"	d	file:
+next_h	cvode/cvode_io.c	/^#define next_h /;"	d	file:
+next_q	cvode/cvode.c	/^#define next_q /;"	d	file:
+next_q	cvode/cvode_io.c	/^#define next_q /;"	d	file:
+nfe	cvode/cvode.c	/^#define nfe /;"	d	file:
+nfe	cvode/cvode_io.c	/^#define nfe /;"	d	file:
+nfeD	cvode/cvode_dense.c	/^#define nfeD /;"	d	file:
+nge	cvode/cvode.c	/^#define nge /;"	d	file:
+nge	cvode/cvode_io.c	/^#define nge /;"	d	file:
+ngrd	meshManager.h	/^        int                      ngrd;      \/\/\/< local number of grid points$/;"	m	class:meshManager
+ngrd	odtline.h	/^        int                     ngrd;      \/\/\/< number of grid cells$/;"	m	class:odtline
+ngrd0	odtparam.h	/^        int     ngrd0;           \/\/\/<  initial grid points $/;"	m	class:odtparam
+ngrdf	meshManager.h	/^        int                      ngrdf;     \/\/\/< local number of grid faces$/;"	m	class:meshManager
+ngrdf	odtline.h	/^        int                     ngrdf;     \/\/\/< number of grid cell faces = ngrd+1$/;"	m	class:odtline
+nhnil	cvode/cvode.c	/^#define nhnil /;"	d	file:
+nje	cvode/cvode_dense.c	/^#define nje /;"	d	file:
+nlscoef	cvode/cvode.c	/^#define nlscoef /;"	d	file:
+nni	cvode/cvode.c	/^#define nni /;"	d	file:
+nni	cvode/cvode_io.c	/^#define nni /;"	d	file:
+nor	cvode/cvode.c	/^#define nor /;"	d	file:
+nor	cvode/cvode_io.c	/^#define nor /;"	d	file:
+nproc	processor.h	/^        int nproc;           \/\/\/< Number of Processes$/;"	m	class:processor
+nrtfn	cvode/cvode.c	/^#define nrtfn /;"	d	file:
+nscon	cvode/cvode.c	/^#define nscon /;"	d	file:
+nsetups	cvode/cvode.c	/^#define nsetups /;"	d	file:
+nsetups	cvode/cvode_io.c	/^#define nsetups /;"	d	file:
+nspc	linevariables/lv_enth.h	/^        int nspc;$/;"	m	class:lv_enth
+nspc	linevariables/lv_ygas.cc	/^int lv_ygas::nspc;           $/;"	m	class:lv_ygas	file:
+nspc	linevariables/lv_ygas.h	/^        static int                     nspc;        \/\/\/< number of gas species$/;"	m	class:lv_ygas
+nspc	streams.h	/^        int            nspc;            \/\/\/< number of species in gas mechanism$/;"	m	class:streams
+nst	cvode/cvode.c	/^#define nst /;"	d	file:
+nst	cvode/cvode_dense.c	/^#define nst /;"	d	file:
+nst	cvode/cvode_io.c	/^#define nst /;"	d	file:
+nstlj	cvode/cvode_dense.c	/^#define nstlj /;"	d	file:
+nstlp	cvode/cvode.c	/^#define nstlp /;"	d	file:
+nvabs	cvode/sundials_nvector.h	/^  void        (*nvabs)(N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvaddconst	cvode/sundials_nvector.h	/^  void        (*nvaddconst)(N_Vector, realtype, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvclone	cvode/sundials_nvector.h	/^  N_Vector    (*nvclone)(N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvcloneempty	cvode/sundials_nvector.h	/^  N_Vector    (*nvcloneempty)(N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvcompare	cvode/sundials_nvector.h	/^  void        (*nvcompare)(realtype, N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvconst	cvode/sundials_nvector.h	/^  void        (*nvconst)(realtype, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvconstrmask	cvode/sundials_nvector.h	/^  booleantype (*nvconstrmask)(N_Vector, N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvdestroy	cvode/sundials_nvector.h	/^  void        (*nvdestroy)(N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvdiv	cvode/sundials_nvector.h	/^  void        (*nvdiv)(N_Vector, N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvdotprod	cvode/sundials_nvector.h	/^  realtype    (*nvdotprod)(N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvgetarraypointer	cvode/sundials_nvector.h	/^  realtype*   (*nvgetarraypointer)(N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvinv	cvode/sundials_nvector.h	/^  void        (*nvinv)(N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvinvtest	cvode/sundials_nvector.h	/^  booleantype (*nvinvtest)(N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvl1norm	cvode/sundials_nvector.h	/^  realtype    (*nvl1norm)(N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvlinearsum	cvode/sundials_nvector.h	/^  void        (*nvlinearsum)(realtype, N_Vector, realtype, N_Vector, N_Vector); $/;"	m	struct:_generic_N_Vector_Ops
+nvmaxnorm	cvode/sundials_nvector.h	/^  realtype    (*nvmaxnorm)(N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvmin	cvode/sundials_nvector.h	/^  realtype    (*nvmin)(N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvminquotient	cvode/sundials_nvector.h	/^  realtype    (*nvminquotient)(N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvprod	cvode/sundials_nvector.h	/^  void        (*nvprod)(N_Vector, N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvscale	cvode/sundials_nvector.h	/^  void        (*nvscale)(realtype, N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvsetarraypointer	cvode/sundials_nvector.h	/^  void        (*nvsetarraypointer)(realtype *, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvspace	cvode/sundials_nvector.h	/^  void        (*nvspace)(N_Vector, long int *, long int *);$/;"	m	struct:_generic_N_Vector_Ops
+nvwl2norm	cvode/sundials_nvector.h	/^  realtype    (*nvwl2norm)(N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvwrmsnorm	cvode/sundials_nvector.h	/^  realtype    (*nvwrmsnorm)(N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+nvwrmsnormmask	cvode/sundials_nvector.h	/^  realtype    (*nvwrmsnormmask)(N_Vector, N_Vector, N_Vector);$/;"	m	struct:_generic_N_Vector_Ops
+odtc	odtline.h	/^        odtcase                 *odtc;       \/\/\/< odt case class: set specific vars...$/;"	m	class:odtline
+odtcase	odtcases/odtcase.h	/^        odtcase(){}$/;"	f	class:odtcase
+odtcase	odtcases/odtcase.h	/^class odtcase {$/;"	c
+odtcase_channel	odtcases/odtcase_channel.h	/^        odtcase_channel(){}$/;"	f	class:odtcase_channel
+odtcase_channel	odtcases/odtcase_channel.h	/^class odtcase_channel : public odtcase {$/;"	c
+odtcase_jetMixlRxn	odtcases/odtcase_jetMixlRxn.h	/^        odtcase_jetMixlRxn(){}$/;"	f	class:odtcase_jetMixlRxn
+odtcase_jetMixlRxn	odtcases/odtcase_jetMixlRxn.h	/^class odtcase_jetMixlRxn : public odtcase {$/;"	c
+odtl	cvodeDriver.h	/^        odtline             *odtl;           \/\/\/< pointer to combustion line$/;"	m	class:cvodeDriver
+odtl	eddy.h	/^        odtline             *odtl;              \/\/\/< pointer to line object$/;"	m	class:eddy
+odtl	inputoutput.h	/^        odtline                  *odtl;          \/\/\/< pointer to line object$/;"	m	class:inputoutput
+odtl	linevariables/lv.h	/^        odtline                       *odtl;                  \/\/\/< pointer to line object (parent)$/;"	m	class:lv
+odtl	meshManager.h	/^        odtline                  *odtl;     \/\/\/< pointer to odt line to adapt$/;"	m	class:meshManager
+odtl	micromixer.h	/^        odtline        *odtl;          \/\/\/< pointer to line object$/;"	m	class:micromixer
+odtl	odtcases/odtcase.h	/^        odtline                       *odtl;                  \/\/\/< pointer to line object (parent)$/;"	m	class:odtcase
+odtl	odtline.h	/^        odtline                 *odtl;     \/\/\/< (for one line to point to another (eddl))$/;"	m	class:odtline
+odtl	odtparam.h	/^        odtline *odtl;           \/\/\/< pointer to line object$/;"	m	class:odtparam
+odtl	radiation.h	/^        odtline                      *odtl;       \/\/\/< pointer to odtline$/;"	m	class:radiation
+odtl	solver.h	/^        odtline        *odtl;          \/\/\/< pointer to line object$/;"	m	class:solver
+odtl	streams.h	/^        odtline        *odtl;           \/\/\/< pointer to odtline object$/;"	m	class:streams
+odtline	odtline.cc	/^ odtline::odtline(odtline *p_odtl, $/;"	f	class:odtline
+odtline	odtline.h	/^class odtline {$/;"	c
+odtp	odtline.h	/^        odtparam                *odtp;       \/\/\/< pointer to the parameters object$/;"	m	class:odtline
+odtparam	odtparam.cc	/^odtparam::odtparam(inputoutput *p_io) {$/;"	f	class:odtparam
+odtparam	odtparam.h	/^class odtparam {$/;"	c
+operator ()	MersenneTwister.h	/^	double operator()() { return rand(); }  \/\/ same as rand()$/;"	f	class:MTRand
+operator ()	meshManager.h	/^        inline bool operator()(const int &a, const int &b) const {$/;"	f	class:meshManager
+operator <<	MersenneTwister.h	/^inline std::ostream& operator<<( std::ostream& os, const MTRand& mtrand )$/;"	f
+operator >>	MersenneTwister.h	/^inline std::istream& operator>>( std::istream& is, MTRand& mtrand )$/;"	f
+ops	cvode/sundials_nvector.h	/^  struct _generic_N_Vector_Ops *ops;$/;"	m	struct:_generic_N_Vector	typeref:struct:_generic_N_Vector::_generic_N_Vector_Ops
+opthinRadHeatSource	radiation.cc	/^void radiation::opthinRadHeatSource(const vector<vector<double> > &xMoleSp, $/;"	f	class:radiation
+ostrm	inputoutput.h	/^        ostream                  *ostrm;         \/\/\/< Runtime: points to cout or to a file$/;"	m	class:inputoutput
+outputHeader	inputoutput.cc	/^void inputoutput::outputHeader() {$/;"	f	class:inputoutput
+outputProgress	inputoutput.cc	/^void inputoutput::outputProgress() {$/;"	f	class:inputoutput
+outputProperties	inputoutput.cc	/^void inputoutput::outputProperties(const string fname, const double time) {$/;"	f	class:inputoutput
+own_data	cvode/nvector_serial.h	/^  booleantype own_data;$/;"	m	struct:_N_VectorContent_Serial
+pNext	MersenneTwister.h	/^	uint32 *pNext;     \/\/ next value to get from state$/;"	m	class:MTRand
+params	inputoutput.h	/^        YAML::Node               params;         \/\/\/< yaml sub node$/;"	m	class:inputoutput
+phase	odtline.h	/^        lv*                     phase;$/;"	m	class:odtline
+phi	meshManager.h	/^        vector<lv*>              phi;       \/\/\/< vector of pointers to linevariable objects$/;"	m	class:meshManager
+pivots	cvode/cvode_dense.c	/^#define pivots /;"	d	file:
+pos	odtline.h	/^        lv*                     pos;       \/\/\/< pointers to gas properties$/;"	m	class:odtline
+pos0	eddy.h	/^        vector<double>      pos0;               \/\/\/< initial eddy cell locations, for kernel$/;"	m	class:eddy
+posLower	meshManager.h	/^        double                   posLower;  \/\/\/< physical region of eddy (lower bound)$/;"	m	class:meshManager
+posUpper	meshManager.h	/^        double                   posUpper;  \/\/\/< physical region of eddy (upper bound)$/;"	m	class:meshManager
+posf	odtline.h	/^        lv*                     posf;      \/\/\/< access as: posf->d[i], or posf->var_name, etc.$/;"	m	class:odtline
+pres	odtparam.h	/^        double  pres;            \/\/\/<  initial pressure (Pa)$/;"	m	class:odtparam
+probType	odtparam.h	/^        string  probType;        \/\/\/<  problem type: CHANNEL, JETMIXL_RXN$/;"	m	class:odtparam
+processor	processor.cc	/^processor::processor() {$/;"	f	class:processor
+processor	processor.h	/^class processor{$/;"	c
+q	cvode/cvode.c	/^#define q /;"	d	file:
+qmax	cvode/cvode.c	/^#define qmax /;"	d	file:
+qprime	cvode/cvode.c	/^#define qprime /;"	d	file:
+qu	cvode/cvode.c	/^#define qu /;"	d	file:
+qu	cvode/cvode_io.c	/^#define qu /;"	d	file:
+qwait	cvode/cvode.c	/^#define qwait /;"	d	file:
+rad	linevariables/lv_enth.h	/^        radiation  *rad;$/;"	m	class:lv_enth
+radCoefs	radiation.h	/^        vector<vector<double> >      radCoefs;    \/\/\/< Radiation Coefficients [spc][coef]$/;"	m	class:radiation
+radType	odtparam.h	/^        string  radType;         \/\/\/<  radiation flag: OPTHIN, TWOFLUX$/;"	m	class:odtparam
+radiation	radiation.h	/^        radiation(){};   \/\/ constructor$/;"	f	class:radiation
+radiation	radiation.h	/^class radiation {$/;"	c
+raiseDtSmean	solver.cc	/^void solver::raiseDtSmean() {$/;"	f	class:solver
+rand	MersenneTwister.h	/^inline double MTRand::rand( const double& n )$/;"	f	class:MTRand
+rand	MersenneTwister.h	/^inline double MTRand::rand()$/;"	f	class:MTRand
+rand53	MersenneTwister.h	/^inline double MTRand::rand53()$/;"	f	class:MTRand
+randDblExc	MersenneTwister.h	/^inline double MTRand::randDblExc( const double& n )$/;"	f	class:MTRand
+randDblExc	MersenneTwister.h	/^inline double MTRand::randDblExc()$/;"	f	class:MTRand
+randExc	MersenneTwister.h	/^inline double MTRand::randExc( const double& n )$/;"	f	class:MTRand
+randExc	MersenneTwister.h	/^inline double MTRand::randExc()$/;"	f	class:MTRand
+randInt	MersenneTwister.h	/^inline MTRand::uint32 MTRand::randInt( const uint32& n )$/;"	f	class:MTRand
+randInt	MersenneTwister.h	/^inline MTRand::uint32 MTRand::randInt()$/;"	f	class:MTRand
+randNorm	MersenneTwister.h	/^inline double MTRand::randNorm( const double& mean, const double& variance )$/;"	f	class:MTRand
+random	odtline.h	/^        randomGenerator         random;$/;"	m	class:odtline
+randomGenerator	randomGenerator.h	/^    randomGenerator()          : mtwist() {}$/;"	f	class:randomGenerator
+randomGenerator	randomGenerator.h	/^    randomGenerator(const int aseed) : mtwist(aseed) {$/;"	f	class:randomGenerator
+randomGenerator	randomGenerator.h	/^class randomGenerator {$/;"	c
+ratt_	user_chemical_mechanisms/c2h4RedRR.cc	/^\/* Subroutine *\/ int ratt_(double *t, double *alogt, double *rf, $/;"	f
+ratx_	user_chemical_mechanisms/c2h4RedRR.cc	/^\/* Subroutine *\/ int ratx_(double *t, double *alogt, double *c__, $/;"	f
+rdsmh_	user_chemical_mechanisms/c2h4RedRR.cc	/^\/* Subroutine *\/ int rdsmh_(double *t, double *tlog, double *smh)$/;"	f
+realtype	cvode/sundials_types.h	/^typedef double realtype;$/;"	t
+realtype	cvode/sundials_types.h	/^typedef float realtype;$/;"	t
+realtype	cvode/sundials_types.h	/^typedef long double realtype;$/;"	t
+reload	MersenneTwister.h	/^inline void MTRand::reload()$/;"	f	class:MTRand
+reltol	cvode/cvode.c	/^#define reltol /;"	d	file:
+removeFaceNearZero	meshManager.cc	/^void meshManager::removeFaceNearZero() {$/;"	f	class:meshManager
+request	processor.h	/^        MPI_Request  request;$/;"	m	class:processor
+resize	linevariables/lv.cc	/^void lv::resize() {$/;"	f	class:lv
+resize	linevariables/lv_posf.cc	/^void lv_posf::resize() {$/;"	f	class:lv_posf
+rho	odtline.h	/^        lv*                     rho;$/;"	m	class:odtline
+rho0	odtparam.h	/^        double  rho0;            \/\/\/<  initial uniform density $/;"	m	class:odtparam
+rhsMix	linevariables/lv.h	/^        vector<double>                rhsMix;                 \/\/\/< the data$/;"	m	class:lv
+rhsSrc	linevariables/lv.h	/^        vector<double>                rhsSrc;                 \/\/\/< the data$/;"	m	class:lv
+rightEdge	eddy.h	/^        double              rightEdge;          \/\/\/< right edge location of eddy$/;"	m	class:eddy
+rl1	cvode/cvode.c	/^#define rl1 /;"	d	file:
+rstFilePostfix	odtparam.h	/^        string  rstFilePostfix;  \/\/\/<  for restart file ..\/data\/caseName\/data_55\/dmp_0001.dat, postfix = dmp_0001.dat$/;"	m	class:odtparam
+rstFilePrefix	odtparam.h	/^        string  rstFilePrefix;   \/\/\/<  for restart file ..\/data\/caseName\/data_55\/dmp_0001.dat, prefix  = ..\/data\/caseName$/;"	m	class:odtparam
+rtol	cvodeDriver.h	/^        double              rtol;            \/\/\/< CVODE tol$/;"	m	class:cvodeDriver
+sLastDA	odtparam.h	/^        int     sLastDA;         \/\/\/<  size of the lastDA vector for timing adaptmesh after diff$/;"	m	class:odtparam
+sampleDt	solver.cc	/^double solver::sampleDt() {$/;"	f	class:solver
+sampleEddyAndImplementIfAccepted	solver.cc	/^bool solver::sampleEddyAndImplementIfAccepted(int &iStart, int &iEnd) {$/;"	f	class:solver
+sampleEddyPosition	eddy.cc	/^void eddy::sampleEddyPosition() {$/;"	f	class:eddy
+sampleEddySize	eddy.cc	/^void eddy::sampleEddySize() {$/;"	f	class:eddy
+save	MersenneTwister.h	/^inline void MTRand::save( uint32* saveArray ) const$/;"	f	class:MTRand
+savedJ	cvode/cvode_dense.c	/^#define savedJ /;"	d	file:
+saved_tq5	cvode/cvode.c	/^#define saved_tq5 /;"	d	file:
+seed	MersenneTwister.h	/^inline void MTRand::seed( const uint32 oneSeed )$/;"	f	class:MTRand
+seed	MersenneTwister.h	/^inline void MTRand::seed( uint32 *const bigSeed, const uint32 seedLength )$/;"	f	class:MTRand
+seed	MersenneTwister.h	/^inline void MTRand::seed()$/;"	f	class:MTRand
+seed	odtparam.h	/^        int     seed;            \/\/\/<  random number generator seed (negative to randomize it)$/;"	m	class:odtparam
+setCaseSpecificVars	odtcases/odtcase.h	/^        virtual void setCaseSpecificVars(){}$/;"	f	class:odtcase
+setCaseSpecificVars	odtcases/odtcase_channel.cc	/^void odtcase_channel::setCaseSpecificVars() {$/;"	f	class:odtcase_channel
+setCaseSpecificVars	odtcases/odtcase_jetMixlRxn.cc	/^void odtcase_jetMixlRxn::setCaseSpecificVars() {$/;"	f	class:odtcase_jetMixlRxn
+setCaseSpecificVars_cvode	odtcases/odtcase.h	/^        virtual void setCaseSpecificVars_cvode(const int &ipt){}$/;"	f	class:odtcase
+setCaseSpecificVars_cvode	odtcases/odtcase_jetMixlRxn.cc	/^void odtcase_jetMixlRxn::setCaseSpecificVars_cvode(const int &ipt) {$/;"	f	class:odtcase_jetMixlRxn
+setDxArray	meshManager.cc	/^void meshManager::setDxArray() {$/;"	f	class:meshManager
+setElementMassFracs	streams.cc	/^vector<double> streams::setElementMassFracs(const double *y) {$/;"	f	class:streams
+setElementMoleFracs	streams.cc	/^vector<double> streams::setElementMoleFracs(const double *y) {$/;"	f	class:streams
+setFlux	linevariables/lv_enth.cc	/^void lv_enth::setFlux(const vector<double> &gf, $/;"	f	class:lv_enth
+setFlux	linevariables/lv_ygas.cc	/^void lv_ygas::setFlux(const vector<double> &gf, $/;"	f	class:lv_ygas
+setGasStateAtPt	odtcases/odtcase.h	/^        virtual void setGasStateAtPt(const int &ipt){}$/;"	f	class:odtcase
+setGasStateAtPt	odtcases/odtcase_jetMixlRxn.cc	/^void odtcase_jetMixlRxn::setGasStateAtPt(const int &ipt) {$/;"	f	class:odtcase_jetMixlRxn
+setGf	micromixer.cc	/^void micromixer::setGf(){$/;"	f	class:micromixer
+setGridDx	meshManager.cc	/^void meshManager::setGridDx(const odtline *line, vector<double> &dx) {$/;"	f	class:meshManager
+setGridDxc	meshManager.cc	/^void meshManager::setGridDxc(const odtline *line, vector<double> &dxc) {$/;"	f	class:meshManager
+setGridDxcDx	micromixer.cc	/^void micromixer::setGridDxcDx() {$/;"	f	class:micromixer
+setLineFromRegion	odtline.cc	/^void odtline::setLineFromRegion(const int i1, const int i2) {$/;"	f	class:odtline
+setLvFromRegion	linevariables/lv.cc	/^void lv::setLvFromRegion(const int i1, const int i2){$/;"	f	class:lv
+setLvFromRegion	linevariables/lv_pos.cc	/^void lv_pos::setLvFromRegion(const int i1, const int i2){$/;"	f	class:lv_pos
+setLvFromRegion	linevariables/lv_posf.cc	/^void lv_posf::setLvFromRegion(const int i1, const int i2){$/;"	f	class:lv_posf
+setNominalStepSize	micromixer.cc	/^void micromixer::setNominalStepSize() {$/;"	f	class:micromixer
+setStepSize	micromixer.cc	/^void micromixer::setStepSize() {$/;"	f	class:micromixer
+setStoicMixf	streams.cc	/^void streams::setStoicMixf() {$/;"	f	class:streams
+setVar	linevariables/lv.h	/^        virtual void setVar(const int ipt=-1){}$/;"	f	class:lv
+setVar	linevariables/lv_chi.cc	/^void lv_chi::setVar(const int ipt){$/;"	f	class:lv_chi
+setVar	linevariables/lv_hr.cc	/^void lv_hr::setVar(const int ipt){$/;"	f	class:lv_hr
+setVar	linevariables/lv_dvisc.cc	/^void lv_dvisc::setVar(const int ipt){$/;"	f	class:lv_dvisc
+setVar	linevariables/lv_dvisc_const.cc	/^void lv_dvisc_const::setVar(const int ipt){$/;"	f	class:lv_dvisc_const
+setVar	linevariables/lv_mixf.cc	/^void lv_mixf::setVar(const int ipt){$/;"	f	class:lv_mixf
+setVar	linevariables/lv_pos.cc	/^void lv_pos::setVar(const int ipt){$/;"	f	class:lv_pos
+setVar	linevariables/lv_rho.cc	/^void lv_rho::setVar(const int ipt){$/;"	f	class:lv_rho
+setVar	linevariables/lv_rho_const.cc	/^void lv_rho_const::setVar(const int ipt){$/;"	f	class:lv_rho_const
+setVar	linevariables/lv_temp.cc	/^void lv_temp::setVar(const int ipt){$/;"	f	class:lv_temp
+set_iLower_iUpper	meshManager.cc	/^void meshManager::set_iLower_iUpper() {$/;"	f	class:meshManager
+setupNonNull	cvode/cvode.c	/^#define setupNonNull /;"	d	file:
+setupNonNull	cvode/cvode_dense.c	/^#define setupNonNull /;"	d	file:
+sigmaSB	radiation.h	/^        double                       sigmaSB;     \/\/\/< Stefan Boltzman const$/;"	m	class:radiation
+sldeton	cvode/cvode.c	/^#define sldeton /;"	d	file:
+sldeton	cvode/cvode_io.c	/^#define sldeton /;"	d	file:
+solv	odtline.h	/^        solver                  *solv;       \/\/\/< pointer to solver object$/;"	m	class:odtline
+solver	solver.h	/^        solver(){ ed3=0; eddl3=0; }$/;"	f	class:solver
+solver	solver.h	/^class solver {$/;"	c
+sootFactor	radiation.h	/^        double                       sootFactor;  \/\/\/< Ksoot = 1863 * fvsoot * T$/;"	m	class:radiation
+splitCell	linevariables/lv.cc	/^void lv::splitCell(const int isplt, $/;"	f	class:lv
+splitCell	linevariables/lv_pos.cc	/^void lv_pos::splitCell(const int isplt, $/;"	f	class:lv_pos
+splitCell	linevariables/lv_posf.cc	/^void lv_posf::splitCell(const int isplt, $/;"	f	class:lv_posf
+splitCell	meshManager.cc	/^void meshManager::splitCell(const int isplt, const int nsplt, const vector<double> &cellFaces) {$/;"	f	class:meshManager
+ssdat	cvode/cvode.c	/^#define ssdat /;"	d	file:
+state	MersenneTwister.h	/^	uint32 state[N];   \/\/ internal state$/;"	m	class:MTRand
+status	processor.h	/^        MPI_Status   status;$/;"	m	class:processor
+streamProps	inputoutput.h	/^        YAML::Node               streamProps;    \/\/\/< yaml sub node$/;"	m	class:inputoutput
+streams	streams.h	/^        streams(){}$/;"	f	class:streams
+streams	streams.h	/^class streams {$/;"	c
+strm	odtline.h	/^        streams                 *strm;       \/\/\/< pointer to gas stream properties $/;"	m	class:odtline
+t0	solver.h	/^        double         t0;             \/\/\/< time of last eddy event; diffusion left off here.$/;"	m	class:solver
+tEnd	odtparam.h	/^        double  tEnd;            \/\/\/<  ending time of realization$/;"	m	class:odtparam
+tVarMap	cvodeDriver.h	/^        map<int,lv*>        tVarMap;         \/\/\/< map to transported variables. (Line vars in any order, but here, solve transported).$/;"	m	class:cvodeDriver
+taskc	cvode/cvode.c	/^#define taskc /;"	d	file:
+tau	cvode/cvode.c	/^#define tau /;"	d	file:
+tdfac	odtparam.h	/^        double  tdfac;           \/\/\/<  factor between dtCUmax and dtCFL for temporal flows; DEFAULT = 1.0$/;"	m	class:odtparam
+temp	odtline.h	/^        lv*                     temp;$/;"	m	class:odtline
+tempv	cvode/cvode.c	/^#define tempv /;"	d	file:
+tend	micromixer.h	/^        double         tend;$/;"	m	class:micromixer
+testCVflag	cvodeDriver.cc	/^void cvodeDriver::testCVflag(int flag, std::string func) {$/;"	f	class:cvodeDriver
+testLES_elapsedTime	solver.cc	/^bool solver::testLES_elapsedTime(const double time, const double tauEddy) {$/;"	f	class:solver
+testLES_fracDomain	solver.cc	/^bool solver::testLES_fracDomain(const double eSize) {$/;"	f	class:solver
+testLES_integralLength	solver.cc	/^bool solver::testLES_integralLength(const double time, const double eSize) {$/;"	f	class:solver
+testLES_thirds	solver.cc	/^bool solver::testLES_thirds() {$/;"	f	class:solver
+thi	cvode/cvode.c	/^#define thi /;"	d	file:
+time	micromixer.h	/^        double         time;           \/\/\/< current time $/;"	m	class:micromixer
+time	solver.h	/^        double         time;           \/\/\/< odt time (during sampling)$/;"	m	class:solver
+tlo	cvode/cvode.c	/^#define tlo /;"	d	file:
+tn	cvode/cvode.c	/^#define tn /;"	d	file:
+tn	cvode/cvode_dense.c	/^#define tn /;"	d	file:
+tn	cvode/cvode_io.c	/^#define tn /;"	d	file:
+tolsf	cvode/cvode.c	/^#define tolsf /;"	d	file:
+tolsf	cvode/cvode_io.c	/^#define tolsf /;"	d	file:
+toutc	cvode/cvode.c	/^#define toutc /;"	d	file:
+tq	cvode/cvode.c	/^#define tq /;"	d	file:
+tran	odtline.h	/^        Transport               *tran;       \/\/\/< pointer to cantera transport object (viscosity, diffusivity, etc.)$/;"	m	class:odtline
+tretlast	cvode/cvode.c	/^#define tretlast /;"	d	file:
+tripMap	eddy.cc	/^void eddy::tripMap(odtline *line, int iS, int iE, const bool LsplitAtEddy) {$/;"	f	class:eddy
+trout	cvode/cvode.c	/^#define trout /;"	d	file:
+trst	odtparam.h	/^        double  trst;            \/\/\/<  restart time (from restart file), default is 0.0;$/;"	m	class:odtparam
+tstart	micromixer.h	/^        double         tstart;$/;"	m	class:micromixer
+tstop	cvode/cvode.c	/^#define tstop /;"	d	file:
+tstopset	cvode/cvode.c	/^#define tstopset /;"	d	file:
+ttol	cvode/cvode.c	/^#define ttol /;"	d	file:
+twist	MersenneTwister.h	/^	uint32 twist( const uint32& m, const uint32& s0, const uint32& s1 ) const$/;"	f	class:MTRand
+twoFluxRadHeatSource	radiation.cc	/^void radiation::twoFluxRadHeatSource(const vector<vector<double> > &xMoleSp, $/;"	f	class:radiation
+uBChi	odtparam.h	/^        double  uBChi;           \/\/\/<  Dirichlet velocity boundary condition.$/;"	m	class:odtparam
+uBClo	odtparam.h	/^        double  uBClo;           \/\/\/<  Dirichlet velocity boundary condition.$/;"	m	class:odtparam
+uint32	MersenneTwister.h	/^	typedef unsigned long uint32;  \/\/ unsigned integer type, at least 32 bits$/;"	t	class:MTRand
+updateDA	meshManager.cc	/^void meshManager::updateDA(const double &time, double &tLastDA, int &cLastDA, $/;"	f	class:meshManager
+updateGrid	micromixer.cc	/^void micromixer::updateGrid(const vector<double> &oldrho_or_rhov) {$/;"	f	class:micromixer
+uround	cvode/cvode.c	/^#define uround /;"	d	file:
+uround	cvode/cvode_dense.c	/^#define uround /;"	d	file:
+uvel	odtline.h	/^        lv*                     uvel;$/;"	m	class:odtline
+v	odtline.h	/^        vector<lv*>             v;         \/\/\/< All line variables are stored in here. $/;"	m	class:odtline
+vBChi	odtparam.h	/^        double  vBChi;           \/\/\/<  Dirichlet velocity boundary condition.$/;"	m	class:odtparam
+vBClo	odtparam.h	/^        double  vBClo;           \/\/\/<  Dirichlet velocity boundary condition.$/;"	m	class:odtparam
+var	cvodeDriver.h	/^        N_Vector            var;             \/\/\/< vector of variables being solved for CVode$/;"	m	class:cvodeDriver
+varMap	odtline.h	/^        map<string,lv*>         varMap;$/;"	m	class:odtline
+var_name	linevariables/lv.h	/^        string                        var_name;               \/\/\/< name of variable$/;"	m	class:lv
+vard	cvodeDriver.h	/^        vector<double>      vard;            \/\/\/< variable array dummy$/;"	m	class:cvodeDriver
+vec_tmpl	cvode/cvode_dense.c	/^#define vec_tmpl /;"	d	file:
+vvel	odtline.h	/^        lv*                     vvel;$/;"	m	class:odtline
+wBChi	odtparam.h	/^        double  wBChi;           \/\/\/<  Dirichlet velocity boundary condition.$/;"	m	class:odtparam
+wBClo	odtparam.h	/^        double  wBClo;           \/\/\/<  Dirichlet velocity boundary condition.$/;"	m	class:odtparam
+writeDataFile	inputoutput.cc	/^void inputoutput::writeDataFile(const string fnameRaw, const double time) {$/;"	f	class:inputoutput
+wvel	odtline.h	/^        lv*                     wvel;$/;"	m	class:odtline
+xf	meshManager.h	/^        vector<double>           xf;        \/\/\/< vector of cell face positions$/;"	m	class:meshManager
+xnf	meshManager.h	/^        vector<double>           xnf;       \/\/\/< vector of new cell face positions$/;"	m	class:meshManager
+y	cvode/cvode.c	/^#define y /;"	d	file:
+y0	streams.h	/^        vector<double> y0;              \/\/\/< stream mixf=0 composition vector$/;"	m	class:streams
+y1	streams.h	/^        vector<double> y1;              \/\/\/< stream mixf=1 composition vector$/;"	m	class:streams
+yf	meshManager.h	/^        vector<vector<double> >  yf;        \/\/\/< vector of cell values$/;"	m	class:meshManager
+ysp	odtline.h	/^        vector<lv*>::iterator   ysp;       \/\/\/< access as: ysp=v.begin(), (*ysp)->d[i] or (*(ysp+k))->d[i], or ysp[k]->d[i].$/;"	m	class:odtline
+zn	cvode/cvode.c	/^#define zn /;"	d	file:
+~cvodeDriver	cvodeDriver.cc	/^cvodeDriver::~cvodeDriver() { $/;"	f	class:cvodeDriver
+~eddy	eddy.h	/^        ~eddy(){}$/;"	f	class:eddy
+~inputoutput	inputoutput.cc	/^inputoutput::~inputoutput() {$/;"	f	class:inputoutput
+~lv	linevariables/lv.h	/^        virtual ~lv(){}$/;"	f	class:lv
+~lv_chi	linevariables/lv_chi.h	/^        virtual ~lv_chi(){}$/;"	f	class:lv_chi
+~lv_enth	linevariables/lv_enth.h	/^        virtual ~lv_enth(){ if(rad) delete rad; }$/;"	f	class:lv_enth
+~lv_hr	linevariables/lv_hr.h	/^        virtual ~lv_hr(){}$/;"	f	class:lv_hr
+~lv_dvisc	linevariables/lv_dvisc.h	/^        virtual ~lv_dvisc(){}$/;"	f	class:lv_dvisc
+~lv_dvisc_const	linevariables/lv_dvisc_const.h	/^        virtual ~lv_dvisc_const(){}$/;"	f	class:lv_dvisc_const
+~lv_mixf	linevariables/lv_mixf.h	/^        virtual ~lv_mixf(){}$/;"	f	class:lv_mixf
+~lv_pos	linevariables/lv_pos.h	/^        virtual ~lv_pos(){}$/;"	f	class:lv_pos
+~lv_posf	linevariables/lv_posf.h	/^        virtual ~lv_posf(){}$/;"	f	class:lv_posf
+~lv_rho	linevariables/lv_rho.h	/^        virtual ~lv_rho(){}$/;"	f	class:lv_rho
+~lv_rho_const	linevariables/lv_rho_const.h	/^        virtual ~lv_rho_const(){}$/;"	f	class:lv_rho_const
+~lv_temp	linevariables/lv_temp.h	/^        virtual ~lv_temp(){}$/;"	f	class:lv_temp
+~lv_uvw	linevariables/lv_uvw.h	/^        virtual ~lv_uvw(){}$/;"	f	class:lv_uvw
+~lv_ygas	linevariables/lv_ygas.h	/^        virtual ~lv_ygas(){}$/;"	f	class:lv_ygas
+~lv_ygas_Rsoot	linevariables/lv_ygas_Rsoot.h	/^        virtual ~lv_ygas_Rsoot(){}$/;"	f	class:lv_ygas_Rsoot
+~meshManager	meshManager.h	/^        ~meshManager(){}$/;"	f	class:meshManager
+~micromixer	micromixer.h	/^        ~micromixer(){ if(cvode) delete cvode; }$/;"	f	class:micromixer
+~odtcase	odtcases/odtcase.h	/^        virtual ~odtcase(){}$/;"	f	class:odtcase
+~odtcase_channel	odtcases/odtcase_channel.h	/^        ~odtcase_channel(){}$/;"	f	class:odtcase_channel
+~odtcase_jetMixlRxn	odtcases/odtcase_jetMixlRxn.h	/^        ~odtcase_jetMixlRxn(){}$/;"	f	class:odtcase_jetMixlRxn
+~odtline	odtline.cc	/^odtline::~odtline() {$/;"	f	class:odtline
+~odtparam	odtparam.h	/^        ~odtparam(){}$/;"	f	class:odtparam
+~processor	processor.cc	/^processor::~processor() {$/;"	f	class:processor
+~radiation	radiation.h	/^        ~radiation(){}$/;"	f	class:radiation
+~solver	solver.cc	/^solver::~solver(){$/;"	f	class:solver
+~streams	streams.h	/^        ~streams(){}$/;"	f	class:streams

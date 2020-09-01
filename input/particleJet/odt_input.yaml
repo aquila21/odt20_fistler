@@ -1,0 +1,119 @@
+################### Main ODT parameters
+
+params:
+
+    seed:          -1             #  random number generator seed (negative to randomize it)
+    tEnd:          0.231          #  ending time of realization (= 70*D for tEnd=0.49) in spatial xEnd
+    domainLength:  0.28           #  length of domain  
+    ngrd0:         10000          #  initial grid points 
+    rho0:          1.196          #  initial uniform density 
+    kvisc0:        1.534E-5       #  initial uniform dynamic viscosity (Pa*s) 1.8e-5
+    dPdx:          0.0            #  initial pressure gradient (Pa/m) 
+    pres:          100000.0       #  pressure (Pa)
+    chemMechFile:  not_used.xml   #  name of chemical mechanism file
+    probType:      COLDJET        #  CHANNEL, JETMIXL_RXN, COLDPROPANEJET, COLDJET
+    #----------------------------------------------------------------------------------
+    Z_param:       400.           #  Viscous penalty parameter  
+    A_param:       0.666667       #  Energy Distribution parameter alpha 
+    C_param:       7.0            #  Eddy frequency parameter 
+    LES_type:      ELAPSEDTIME    #  NONE, THIRDS, ELAPSEDTIME, FRACDOMAIN, INTEGRALSCALE
+    Z_LES:         3.5            #  large eddy suppression (nonpositive prevents les test)  
+    diffCFL:       0.1            #  multiplies min diffusion timestep
+    cvode_atol:    1.0E-10        #  atol for cvode for implicit solution
+    cvode_rtol:    1.0E-4         #  rtol for cvode for implicit solution
+    #----------------------------------------------------------------------------------
+    radType:       NONE           #  radiation flag: OPTHIN, TWOFLUX, NONE
+    Lbuoyant:      false          #  flag to turn on bouyancy
+    LdoDL:         false          #  flag to turn on DL instability
+    Lsolver:       EXPLICIT       #  EXPLICIT, SEMI-IMPLICIT, STRANG
+    #----------------------------------------------------------------------------------
+    bcType:        OUTFLOW        #  OUTFLOW, WALL, PERIODIC, WALL_OUT
+    cCoord:        2              #  1 = planar, 2 = cylindrical, 3 = spherical
+    Lspatial:      true           #  true = spatial, false = temporal
+    umin_spatial:  0.1            #  min uvel for spatial flows; used when alpha pulls velocity
+    Lrestart:      false
+    #----------------------------------------------------------------------------------
+    gDens:         30             #  grid density for mesher
+    dxmin:         0.000005        #  min grid spacing: = dxmin / domain length
+    dxmax:         0.02           #  max grid spacing = dxmax / domain length
+    #----------------------------------------------------------------------------------
+    Pmax:          0.4            #  maximum eddy acceptance probability
+    Pav:           0.02           #  Average acceptance probability
+    dtfac:         2.0            #  maximum factor to increase dtSmean 
+    nDtSmeanWait:  100000         #  number of eddy samples before increase dtSmean
+    eddyMinCells:  3              #  eddy must overlap at least this many cells
+    DAtimeFac:     10.0           #  time until catch-up adaption is DAtimeFac * dtCUmax
+    tdfac:         1.0            #  factor between dtCUmax and dtCFL for temporal flows
+    sLastDA:       100            #  size of the lastDA vector for timing adaptmesh after diff
+    Lp:            0.00075        #  Most probable eddy size frac of domainLength
+    Lmax:          1.0            #  Max eddy size frac of domainLength
+    Lmin:          0.000015       #  Min eddy size frac of domainLength
+    #----------------------------------------------------------------------------------
+    modDump:       1              #  accepted eddies before output file
+    #----------------------------------------------------------------------------------
+    p3:            0.33333
+    #---------------------------------------------------------------------------------
+
+################### Boundary conditions
+
+bcCond:
+
+    uBClo: 0.0                    
+    uBChi: 0.0
+    vBClo: 0.0
+    vBChi: 0.0
+    wBClo: 0.0
+    wBChi: 0.0
+
+################### initialization parameters
+
+initParams:                      # these or others are read in the odtcase_mycase class
+
+    #----------------------------------------------------------------------------------------
+    djeti:          0.014224      # jet tube inner diameter (m)
+    vel_min:        0.1
+    vel_max:        11.76         #= vel_min+11.7  // 11.8, 11.76, 11.12, 
+    delta_vel:      0.0014        # = 0.1*djeti
+    #----------------------------------------------------------------------------------------
+
+################### initialization particle parameters
+
+initParticleParams:
+    - [4750, 0.00, 11.324, 0., 0.]    # [No, pos, u , v, w] No - particle per parcel/pseudo particle
+
+################### Dump times
+
+dumpTimes:
+    - 0.007
+    - 0.014
+    - 0.021
+    - 0.028
+    - 0.035
+    - 0.042
+    - 0.049
+    - 0.056
+    - 0.063
+    - 0.070
+    - 0.077
+    - 0.084
+    - 0.091
+    - 0.098
+    - 0.105
+    - 0.112
+    - 0.119
+    - 0.126
+    - 0.133
+    - 0.140
+    - 0.147
+    - 0.154 
+    - 0.161
+    - 0.168
+    - 0.175
+    - 0.182
+    - 0.189
+    - 0.196
+    - 0.203
+    - 0.210
+    - 0.217
+    - 0.224
+    - 0.231

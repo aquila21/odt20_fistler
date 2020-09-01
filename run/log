@@ -1,0 +1,11 @@
+the start time is
+mån  4 feb 2019 10:28:46 CET
+*** RUNNING ***
+Start subroutine statsOutput
+statsOutput :: calculate cavg
+statsOutput :: calculate eavg
+statsOutput :: start writing output
+statsOutput :: output in ASCII files finished
+
+the end simulation time is
+mån  4 feb 2019 19:41:12 CET

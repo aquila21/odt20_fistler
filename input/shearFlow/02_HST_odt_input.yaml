@@ -1,0 +1,88 @@
+################### Main ODT parameters
+
+params:
+
+    seed:          -7             #  random number generator seed (negative to randomize it)
+    tEnd:          10000.0        #  ending time of realization 
+    domainLength:  14.0           #  length of domain  
+    ngrd0:         1000           #  initial grid points 
+    rho0:          1.0            #  initial uniform density 
+    kvisc0:        0.002          #  initial uniform kinematic viscosity (m**2/s) 1.8e-5
+    dPdx:          0.0            #  initial pressure gradient (Pa/m) 
+    pres:          101325.0       #  pressure (Pa)
+    chemMechFile:  not_used.xml   #  name of chemical mechanism file
+    probType:      SHEARFLOW      #  CHANNEL, JETMIXL_RXN, COLDPROPANEJET, COLDJET
+    #----------------------------------------------------------------------------------
+    Z_param:       600.0          #  Viscous penalty parameter  
+    A_param:       1.0         #  Energy Distribution parameter alpha 
+    C_param:       6.0            #  Eddy frequency parameter 
+    LES_type:      FRACDOMAIN     #  NONE, THIRDS, ELAPSEDTIME, FRACDOMAIN, INTEGRALSCALE
+    Z_LES:         0.7            #  large eddy suppression (nonpositive prevents les test)  
+    diffCFL:       0.5            #  multiplies min diffusion timestep
+    #----------------------------------------------------------------------------------
+    Lsolver:       EXPLICIT       #  EXPLICIT, SEMI-IMPLICIT, STRANG
+    Lperiodic:     true
+    #----------------------------------------------------------------------------------
+    bcType:        PERIODIC       #  OUTFLOW, WALL, PERIODIC, WALL_OUT
+    cCoord:        1              #  1 = planar, 2 = cylindrical, 3 = spherical
+    #----------------------------------------------------------------------------------
+    gDens:         100            #  grid density for mesher
+    dxmin:         0.001          #  min grid spacing: = dxmin / domain length
+    dxmax:         0.1            #  max grid spacing = dxmax / domain length
+    #----------------------------------------------------------------------------------
+    Pmax:          0.4            #  maximum eddy acceptance probability
+    Pav:           0.02           #  Average acceptance probability
+    dtfac:         2.0            #  maximum factor to increase dtSmean 
+    nDtSmeanWait:  100000         #  number of eddy samples before increase dtSmean
+    eddyMinCells:  3              #  eddy must overlap at least this many cells
+    DAtimeFac:     10.0           #  time until catch-up adaption is DAtimeFac * dtCUmax
+    tdfac:         1.0            #  factor between dtCUmax and dtCFL for temporal flows
+    sLastDA:       100            #  size of the lastDA vector for timing adaptmesh after diff
+    Lp:            0.015          #  Most probable eddy size frac of domainLength
+    Lmax:          0.9            #  Max eddy size frac of domainLength
+    Lmin:          0.001          #  Min eddy size frac of domainLength
+    #----------------------------------------------------------------------------------
+    modDump:       100000000      #  accepted eddies before output file
+    Lrestart:      false          #  start from restart file    
+    #----------------------------------------------------------------------------------
+    p3:            0.2            #
+    #----------------------------------------------------------------------------------
+    partCoupl:     0              #  No coupling (0), one-way (1), two-way (2) or two-way plus collision (3)
+    betaP:         4.0            #  model constant for interaction time
+    Nparticle:     13             #  number of particles/particle clouds
+    Dparticle:     0.023          #  diameter of particle (m)
+    DensiParticle: 800            #  density of particle (kg/m3)
+    typeP:         1              #  type of particle (tracer(0), inertial(1), ballistic(2))
+    Gx:            0.00           #  gravity in x-direction (m/s2) (Gx, Gy, Gz)
+    BCparticle:    1              #  Outflow (0), Periodic(1), Wall (2)
+    nStat:         6  
+    ngrdStat:      400
+################### Boundary conditions
+
+bcCond:
+
+    uBClo: -3.5
+    uBChi: 3.5
+    vBClo: 0.0
+    vBChi: 0.0
+    wBClo: 0.0
+    wBChi: 0.0
+
+################### initialization parameters
+
+initParams:                      # these or others are read in the odtcase_mycase class
+
+    #----------------------------------------------------------------------------------------
+    Srate:    0.5                # shear rate (1/s)
+    #----------------------------------------------------------------------------------------
+
+################### initialization particle parameters
+
+initParticleParams:
+    - [171, 0.00, 0., 0., 0.]    # [No, pos, u , v, w] No - particle per parcel/pseudo particle
+
+################### Dump times
+
+dumpTimes:
+    - 10.0
+              
